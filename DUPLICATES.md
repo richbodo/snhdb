@@ -112,3 +112,9 @@ Format: kept copy, then removed copies (md5 of removed content).
   of the Google Sheets sign-in page, no content) + its conversion folder and card,
   and the stale copies in `Claude_Connect/Papers/` (stub .md, copy_report.csv).
   The source Google Sheets remain in Drive; may be re-added deliberately later.
+- **Removed 2026-07-08 (stale export + remaining spreadsheets):**
+  `papers/Markdown files/Claude_Connect/` (30 MB flat export of pre-repair papers+cards,
+  superseded by the repaired corpus), plus the resource-tracking spreadsheets missed in
+  the first sweep: `docs/Initial Links and Notes.xlsx`, `docs/Social Network Health
+  Resources - Remote worker focus.xlsx`, `uncategorized/Resource Inbox.xlsx` (source
+  sheets remain in Drive, pending Rich's spreadsheet review).
