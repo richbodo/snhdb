@@ -1,6 +1,6 @@
 # snhdb
 
-The **Social Network Health (SNH) research library**: a public collection of research
+The **Social Network Health (SNH) research corpus**: a public collection of research
 papers on social network health — remote work, loneliness and isolation, community health,
 mental health, measurement methods — kept in one repository so anyone can clone it and
 search the whole corpus **locally, in seconds**.
