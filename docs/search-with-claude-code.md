@@ -14,7 +14,7 @@ Old workflow for comparison:
    or download the desktop app). Sign in when prompted.
 2. **Clone this repo** (needs ~1 GB free):
    ```sh
-   git clone https://github.com/richbodo/snhdb.git
+   git clone https://github.com/social-network-health/snhdb.git
    cd snhdb
    ```
 3. **Start Claude Code in the repo:**

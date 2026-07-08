@@ -18,8 +18,8 @@ Check in this order; use the first that exists (a directory containing `card-sch
 3. `../snhdb` relative to the current repo root (sibling-checkout convention)
 
 If none exists, tell the user the corpus isn't on this machine and ask before cloning
-(it is ~1 GB): `git clone https://github.com/richbodo/snhdb.git ~/src/snhdb`.
-If they decline, stop and point them at https://github.com/richbodo/snhdb.
+(it is ~1 GB): `git clone https://github.com/social-network-health/snhdb.git ~/src/snhdb`.
+If they decline, stop and point them at https://github.com/social-network-health/snhdb.
 
 ## Step 2 — freshen (best-effort)
 

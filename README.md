@@ -42,7 +42,7 @@ Needs ~1 GB free. Works on macOS and Linux (Windows: copy the folder instead of 
 
 ```sh
 # 1. Get the library
-git clone https://github.com/richbodo/snhdb.git ~/src/snhdb
+git clone https://github.com/social-network-health/snhdb.git ~/src/snhdb
 
 # 2. Install the user-wide Claude Code skill (a symlink, so git pull updates it too)
 mkdir -p ~/.claude/skills
@@ -69,4 +69,4 @@ research folder and eventually power the AI search engine on
 [toolkit.socialnetwork.health](https://toolkit.socialnetwork.health).
 
 Part of the [Social Network Health Project](https://socialnetwork.health) ·
-research hub: [social-network-health](https://github.com/richbodo/social-network-health)
+research hub: [social-network-health](https://github.com/social-network-health/social-network-health)
