@@ -1,50 +1,66 @@
-id: "arguments-2001-rothbard-2001-enriching-or-depleting-the-dynamics-of-en"
-title: "rothbard-2001-enriching-or-depleting-the-dynamics-of-engagement-in-work-and-family-roles"
-authors: ["arguments, Two competing", "depletion", "enrichment", "(Edwards, from research on resource drain", "Rothbard", "(Merton, role conflict", "Greenhaus", "Beutell", "physio"]
+id: "rothbard-2001-enriching-or-depleting-the-dynamics-of"
+title: "Enriching or Depleting? The Dynamics of Engagement in Work and Family Roles"
+authors:
+  - "Rothbard, Nancy P."
 year: 2001
-doi: null
-venue: {type: "thesis", name: null, volume: null, issue: null, pages: null}
-citation: "arguments et al. (2001). rothbard-2001-enriching-or-depleting-the-dynamics-of-engagement-in-work-and-family-roles."
+doi: "10.2307/3094827"
+venue: {type: "journal", name: "Administrative Science Quarterly", volume: 46, issue: 4, pages: "655-684"}
+citation: "Rothbard (2001). Enriching or Depleting? The Dynamics of Engagement in Work and Family Roles. Administrative Science Quarterly, 46(4), 655-684. https://doi.org/10.2307/3094827"
 article_type: "empirical"
 method: {design: "cross-sectional", approach: "survey", evidence_level: "moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: I examine two competing arguments about the effects of engaging
-  in multiple roles, depletion and enrichment, and integrate them by identifying the type of
-  emotional response to a role, negative or positive, as a critical contrasting assumption
-  held by these two perspectives.
+  Using structural equation modeling on survey data from 790 university employees, this
+  study tests a non-recursive model in which engagement (attention plus absorption) in work
+  and family roles produces emotional responses that in turn spill over to affect engagement
+  in the other role. It finds evidence for both depletion and enrichment, but the pattern is
+  highly conditional on gender and direction: depletion ran only from work to family and
+  only for women, while enrichment ran from work to family for men but from family to work
+  for women, and overall far more work-family linkages existed for women than for men.
 claims:
-  - text: "Findings from a survey of 790 employees reveal evidence for both depletion and enrichment as well as gender differences."
+  - text: "Depletion (negative affect from one role reducing engagement in the other) was supported only in the work-to-family direction and only for women: for women, work negative affect significantly decreased family attention (β = -.27), whereas for men the same path was null (β = .01); no evidence of depletion existed in the family-to-work direction for either gender."
+    evidence: "cross-sectional"
+    support_strength: "moderate"
+    outcomes: ["work-life-balance", "wellbeing"]
+    predictors: ["loneliness", "boundary-management"]
+  - text: "Enrichment (positive affect from one role increasing engagement in the other) was asymmetric by gender and direction: for men, work positive affect increased family attention (β = .17) but was unrelated for women (β = -.06); for women, family positive affect increased work absorption (β = .28, full-sample β = .19) but was unrelated for men (β = .00)."
     evidence: "cross-sectional"
     support_strength: "moderate"
     outcomes: ["job-engagement", "work-life-balance"]
-    predictors: ["social-support", "workload"]
-  - text: "Overall, more linkages were found between work and family for women than for men.0 Motivating people to engage in their work is a classic problem in organizations, complicated by the existence of multiple roles, because the attitudes, behaviors, and emotions associated with one role may spill over to another..."
+    predictors: ["sense-of-belonging", "boundary-management"]
+  - text: "Women showed a compensation pattern rather than depletion from family to work: family negative affect was positively associated with work absorption for women (β = .14) but unrelated for men (β = .04), and overall many more significant work-family linkages emerged for women than for men, limiting the model's generalizability across gender."
     evidence: "cross-sectional"
     support_strength: "moderate"
-    outcomes: ["job-engagement", "work-life-balance"]
-    predictors: ["social-support", "workload"]
+    outcomes: ["work-life-balance", "stress"]
+    predictors: ["boundary-management", "workload"]
 population:
-  who: "employees/workers"
-  where: []
-  when: null
+  who: "Employees at a large U.S. public university, stratified by age, gender, and job type (professional/administrative, clerical, faculty, hospital staff, nurses, maintenance, and other roles)"
+  where: ["United States"]
+  when: "January 1998"
   n: 790
-  sector: ["tech", "education", "white-collar"]
+  sector: ["higher-education", "mixed-occupational"]
   sample_notes: >
-    Findings from a survey of 790 employees reveal evidence for both depletion and enrichment
-    as well as gender differences.
+    Mailed survey to 1,310 employees; 790 returned (about 60% response rate); final analytic
+    sample N=684 after listwise handling. Sample skewed female (68% vs. 58% in initial
+    sampling frame) and 90% Caucasian; single-organization design limits generalizability to
+    other employers or to a fully gender-balanced workforce.
 limitation:
-  primary: "Limitations The study's findings should be considered in light of its limitations."
-  others: ["First, while the study tests a non-recursive feedback model, these analyses are limited by the use of cross-sectional data.", "Future research should examine longitudinal panel data collected at several points in time."]
+  primary: "Cross-sectional self-report data used to test a reciprocal (non-recursive) causal model, so the directional work→family and family→work paths are inferred via instrumental variables rather than observed over time."
+  others:
+    - "Single-organization (one university) sample with long tenure and presumably high job security/flexibility, which may underrepresent depletion relative to other, less flexible workplaces."
+    - "All measures are self-report from the same respondents, raising common-method-variance concerns, though the authors argue the divergent attention/absorption findings and high scale reliabilities mitigate this."
+    - "Strong gender asymmetries mean the overall model fits women's experience better than men's, limiting generalizability of a single unified model across genders."
 risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Provides a theoretically grounded, emotion-based mechanism (positive/negative affect as
+  the link between attention+absorption in one role and engagement in another) that the SNH
+  project can borrow when modeling how remote workers' emotional spillover between work and
+  home/community roles drives disengagement or renewed engagement, and it flags gender as a
+  key moderator to check for in remote-work social-health measurement.
 tags:
-  topic: ["work-life-balance", "job-engagement"]
-  method: ["cross-sectional", "survey"]
-  population: ["employees-workers", "tech", "education", "white-collar"]
+  topic: ["work-life-balance", "wellbeing", "job-engagement"]
+  method: ["survey", "cross-sectional"]
+  population: ["higher-education", "mixed-occupational"]
 source:
   markdown: "Papers_Data/Remote Workers/01 Extended - Remote Workers/MD/rothbard-2001-enriching-or-depleting-the-dynamics-of-engagement-in-work-and-family-roles/rothbard-2001-enriching-or-depleting-the-dynamics-of-engagement-in-work-and-family-roles.md"
-  pdf: null
+  pdf: "papers/Remote Workers/01 Extended - Remote Workers/rothbard-2001-enriching-or-depleting-the-dynamics-of-engagement-in-work-and-family-roles.pdf"
   notes: null

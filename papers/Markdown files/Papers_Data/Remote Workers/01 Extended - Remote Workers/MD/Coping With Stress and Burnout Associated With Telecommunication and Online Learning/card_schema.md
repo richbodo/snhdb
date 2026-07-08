@@ -1,53 +1,69 @@
-id: "10.3389/fpubh.2020.574969/full"
+id: "mheidly-2020-coping-with-stress-and-burnout-associated"
 title: "Coping With Stress and Burnout Associated With Telecommunication and Online Learning"
-authors: ["Mheidly, Nour", "Fares, Mohamad Y.", "Fares, Jawad"]
-year: 2025
-doi: "10.3389/fpubh.2020.574969/full"
-venue: {type: "conference", name: "Edited by:", volume: null, issue: null, pages: null}
-citation: "Mheidly et al. (2025). Coping With Stress and Burnout Associated With Telecommunication and Online Learning. Edited by:."
-article_type: "theory"
-method: {design: "theory", approach: "modelling", evidence_level: "speculative", preregistered: false}
+authors:
+  - "Mheidly, Nour"
+  - "Fares, Mohamad Y."
+  - "Fares, Jawad"
+year: 2020
+doi: "10.3389/fpubh.2020.574969"
+venue: {type: "journal", name: "Frontiers in Public Health", volume: 8, issue: null, pages: null}
+citation: "Mheidly et al. (2020). Coping With Stress and Burnout Associated With Telecommunication and Online Learning. Frontiers in Public Health, 8. https://doi.org/10.3389/fpubh.2020.574969"
+article_type: "review"
+method: {design: "review-narrative", approach: "analytical", evidence_level: "weak", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: Public Health 8:574969. doi: 10.3389/fpubh.2020.574969 The
-  COVID-19 pandemic substantially impacted the field of telecommunication.
+  This narrative review synthesizes literature on how the COVID-19-driven surge in
+  telecommunication (teleconferencing, telecommuting, and online learning) contributed to
+  stress, digital eye strain, and burnout, and argues that telecommunication-related strain
+  compounds with other pandemic stressors (quarantine, job insecurity, disrupted schooling)
+  to worsen mental health outcomes. It closes with eight practical coping recommendations
+  (e.g., more breaks between sessions, podcast-based audio-only alternatives to video calls,
+  yoga/mindfulness practices, and peer sharing in online communities) but explicitly
+  concludes that evidence linking smart-device use to psychological harm remains equivocal
+  and under-researched in the general population.
 claims:
-  - text: "Coping With Stress and Burnout Associated With Telecommunication and Online Learning Nour Mheidly, Mohamad Y."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["burnout", "wellbeing", "mental-health", "anxiety", "collaboration"]
+  - text: "Personality traits moderate telecommunication-related burnout: studies cited found extroverted individuals were more associated with telecommuting burnout, whereas introverted individuals reported facing telecommunication-induced stress more easily/manageably."
+    evidence: "review-narrative"
+    support_strength: "weak"
+    outcomes: ["burnout", "stress"]
     predictors: ["remote-work-intensity"]
-  - text: "It increased the use of media applications that enable teleconferencing, telecommuting, online learning, and social relations."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["burnout", "wellbeing", "mental-health", "anxiety", "collaboration"]
-    predictors: ["remote-work-intensity"]
-  - text: "Mental health stressors associated with telecommunication can add to other stressors related to quarantine time and lockdown to eventually lead to exhaustion and burnout."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["burnout", "wellbeing", "mental-health", "anxiety", "collaboration"]
-    predictors: ["remote-work-intensity"]
+  - text: "Excessive e-mail use is identified as an antecedent of employee burnout via information overload and the stress of continuously responding to messages, drawing on prior organizational studies (Barley et al. 2011; Estévez-Mujica & Quintane 2018)."
+    evidence: "review-narrative"
+    support_strength: "weak"
+    outcomes: ["burnout", "stress"]
+    predictors: ["workload", "technostress"]
+  - text: "Quarantine duration was linked to worse psychological outcomes: individuals quarantined more than 10 days were more likely to report post-traumatic stress symptoms than those quarantined for shorter periods (citing Brooks et al. 2020), and lockdown-driven inability to socialize was associated with reports of separation anxiety, boredom, and suicidal thoughts."
+    evidence: "review-narrative"
+    support_strength: "weak"
+    outcomes: ["stress", "isolation", "suicidal-ideation"]
+    predictors: ["isolation"]
 population:
-  who: "students/adolescents"
-  where: ["USA", "UK", "China", "India"]
-  when: "COVID-19 pandemic"
+  who: "Not an original sample; a narrative synthesis of secondary literature (surveys, cohort studies, other reviews) covering students, telecommuting/office employees, adolescents, healthcare workers, and the general public affected by the COVID-19-era shift to telecommunication and online learning"
+  where: []
+  when: "Literature published up to mid/late 2020, framed around the COVID-19 pandemic period"
   n: null
-  sector: ["tech", "public-sector", "education", "healthcare", "remote-workers"]
+  sector: ["education", "remote-work", "healthcare"]
   sample_notes: >
-    Keywords: COVID-19, SARS-CoV-2, mental health-state of emotional and social well-being,
-    psychology, students, education-active learning...
+    No original data collection or systematic search protocol described; sources were
+    selectively cited (news reports, government notices, and a mix of empirical studies and
+    prior reviews) rather than gathered via a reproducible systematic-review methodology.
 limitation:
-  primary: "The markdown did not expose an explicit limitation section; interpret claims according to method and source type."
-  others: ["Use this card as an index and verify fine-grained methodological caveats in the source text."]
-risk_of_bias: "unclear"
+  primary: "The review is non-systematic (no stated search strategy, inclusion criteria, or quality appraisal), so the evidence base is a selective synthesis rather than a rigorously sampled one, and the authors themselves state that evidence on smart-device use and mental health remains equivocal."
+  others:
+    - "Most of the eight coping recommendations (podcasts, breaks, yoga, awareness campaigns) are proposed by the authors without direct empirical testing of their effectiveness for telecommunication-specific burnout."
+    - "Focus is tightly bound to the acute COVID-19 lockdown context (2020), limiting generalizability to later, more routinized remote-work/hybrid-work arrangements."
+    - "No primary data on the general working population's stress/burnout levels were collected; the authors note research on the general population (versus healthcare workers) is lacking."
+risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Offers a ready-made menu of low-cost coping interventions (session breaks, audio/podcast
+  substitution for video calls, mindfulness practices, peer sharing in online communities)
+  that the SNH project can consider for remote-worker burnout mitigation, and flags email
+  overload and personality traits (extroversion/introversion) as candidate predictors of
+  telecommunication burnout worth measuring in SNH surveys.
 tags:
-  topic: ["remote-work", "mental-health", "burnout", "wellbeing", "collaboration"]
-  method: ["theory"]
-  population: ["students-adolescents", "tech", "public-sector", "education", "healthcare", "remote-workers"]
+  topic: ["remote-work", "burnout", "mental-health", "technostress", "wellbeing"]
+  method: ["review"]
+  population: ["remote-workers", "students", "general-population"]
 source:
   markdown: "Papers_Data/Remote Workers/01 Extended - Remote Workers/MD/Coping With Stress and Burnout Associated With Telecommunication and Online Learning/Coping With Stress and Burnout Associated With Telecommunication and Online Learning.md"
-  pdf: null
+  pdf: "papers/Remote Workers/01 Extended - Remote Workers/Coping With Stress and Burnout Associated With Telecommunication and Online Learning.pdf"
   notes: null

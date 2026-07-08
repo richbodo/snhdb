@@ -1,55 +1,73 @@
-id: "10.1177/08933189231199052"
+id: "suortti-2024-communicative-tensions-in-remote-work-during"
 title: "Communicative Tensions in Remote Work During the COVID-19 Pandemic"
-authors: ["Quarterly, Management Communication"]
+authors:
+  - "Suortti, Camilla"
+  - "Sivunen, Anu"
 year: 2024
 doi: "10.1177/08933189231199052"
-venue: {type: "journal", name: "Corresponding Author:", volume: 38, issue: 2, pages: "386–412"}
-citation: "Quarterly (2024). Communicative Tensions in Remote Work During the COVID-19 Pandemic. Corresponding Author:."
+venue: {type: "journal", name: "Management Communication Quarterly", volume: 38, issue: 2, pages: "386-412"}
+citation: "Suortti et al. (2024). Communicative Tensions in Remote Work During the COVID-19 Pandemic. Management Communication Quarterly, 38(2), 386-412. https://doi.org/10.1177/08933189231199052"
 article_type: "empirical"
-method: {design: "cross-sectional", approach: "survey", evidence_level: "weak", preregistered: false}
+method: {design: "qualitative", approach: "survey", evidence_level: "low-to-moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: The findings indicate emerging tensions and their entanglements
-  in knowledge workers' remote work and technology-mediated communication practices, here
-  manifesting in process-, task-, and relationship-oriented interactions.
+  Analyzing 3,880 open-ended survey responses (1,289 coded units) from 569 knowledge workers
+  across three Nordic organizations in the first months of pandemic remote work, this study
+  uses contrapuntal analysis to identify nine intertwined communicative tensions clustered
+  into task-, process-, and relationship-oriented interactions. It finds that communication
+  technology functions simultaneously as an enabler and a hindrance across all three
+  categories, and that these tensions entangle with one another rather than existing
+  independently, most notably relationship-oriented tensions (41% of coded units) tied to
+  loneliness, isolation, and eroding team spirit. The paper argues that managing these
+  entangled tensions, rather than resolving them, is key to supporting employee well-being
+  in remote work.
 claims:
-  - text: "This study aims to uncover what kinds of tensions and their entanglements arise in knowledge workers' collaboration and technology-mediated communication practices during a transition to remote work."
-    evidence: "cross-sectional"
-    support_strength: "weak"
-    outcomes: ["burnout", "wellbeing", "job-satisfaction", "loneliness", "isolation", "collaboration"]
-    predictors: ["remote-work-intensity", "loneliness", "social-support", "team-cohesion"]
-  - text: "The findings indicate emerging tensions and their entanglements in knowledge workers' remote work and technology-mediated communication practices, here manifesting in process-, task-, and relationship-oriented interactions."
-    evidence: "cross-sectional"
-    support_strength: "weak"
-    outcomes: ["burnout", "wellbeing", "job-satisfaction", "loneliness", "isolation", "collaboration"]
-    predictors: ["remote-work-intensity", "loneliness", "social-support", "team-cohesion"]
-  - text: "The findings provide theoretical and practical implications for how entangled tensions in remote work could be managed to support effective communication, collaboration, and employee well-being during and beyond the pandemic situation."
-    evidence: "cross-sectional"
-    support_strength: "weak"
-    outcomes: ["burnout", "wellbeing", "job-satisfaction", "loneliness", "isolation", "collaboration"]
-    predictors: ["remote-work-intensity", "loneliness", "social-support", "team-cohesion"]
+  - text: "Relationship-oriented tensions accounted for 41% of the 1,289 coded analysis units (529 units), more than task-oriented (24%, 304 units) or process-oriented (35%, 456 units) tensions, with the largest single subtension being increased versus decreased opportunity to form and maintain social relationships (266 units, 50% of relationship-oriented units)."
+    evidence: "qualitative"
+    support_strength: "low-to-moderate"
+    outcomes: ["isolation", "loneliness", "sense-of-belonging", "communication"]
+    predictors: ["remote-work-intensity", "social-support"]
+  - text: "Respondents reported that reduced face-to-face contact and technology-mediated-only interaction produced feelings of isolation and loneliness and a distancing from the work community, even as some respondents simultaneously reported feeling closer to previously distant colleagues via video meetings."
+    evidence: "qualitative"
+    support_strength: "low-to-moderate"
+    outcomes: ["loneliness", "isolation", "sense-of-belonging", "wellbeing"]
+    predictors: ["remote-work-intensity", "social-support"]
+  - text: "Communication technology was found to be simultaneously an enabler and a hindrance of interaction across all three tension categories (task, process, relationship), and this technology-mediated tension entangled with and amplified the other identified tensions rather than operating independently."
+    evidence: "qualitative"
+    support_strength: "low-to-moderate"
+    outcomes: ["collaboration", "communication", "job-engagement"]
+    predictors: ["remote-work-intensity", "technostress"]
 population:
-  who: "remote workers"
-  where: ["Finland"]
-  when: "During the COVID-19 Pandemic"
-  n: null
-  sector: ["tech", "education", "white-collar", "remote-workers"]
+  who: "Knowledge workers (teachers, researchers, and other professionals) at three Nordic research and education organizations, surveyed after 1-2 months of mandatory full-time remote work"
+  where: ["Finland (Nordic countries)"]
+  when: "April-May 2020"
+  n: 569
+  sector: ["education", "research", "knowledge-work"]
   sample_notes: >
-    This study aims to uncover what kinds of tensions and their entanglements arise in
-    knowledge workers' collaboration and technology-mediated communication practices during a
-    transition to remote work.
+    Open-ended online survey; 569 respondents (166/253/150 across the three organizations)
+    produced 3,880 open-ended responses, coded into 1,289 analysis units. Mean respondent
+    age 43 (range 19-67); 61% female, 36% male, 2% unreported. Authors note the sample was
+    relatively privileged (reliable home internet/equipment), which limits generalizability
+    to less-resourced remote workers.
 limitation:
-  primary: "Limitations and Future Research Directions The current study has some limitations."
-  others: ["The findings reflect a privileged study population, as well as the particular context of this study, one in which the dataset was collected soon after a rapid shift to full-time remote work in a pandemic situation.", "However, taking a tension-based approach and collecting data from a large number of respondents from several organizations, we were able to develop an analytical framework that goes beyond the particularities of one specific context."]
+  primary: "Sample is drawn from privileged, well-resourced Nordic knowledge workers with stable home internet access at the very start of the pandemic, limiting generalizability to other populations, sectors, or later/prolonged remote-work periods."
+  others:
+    - "Cross-sectional, single-timepoint survey design cannot capture how tensions evolve over time; authors explicitly call for longitudinal or diary-study follow-up."
+    - "Qualitative contrapuntal/thematic coding by two researchers introduces interpretive subjectivity, though authors report iterative discussion of codes."
+    - "Data collected via short open-ended text responses (mean 26 words) rather than interviews, limiting depth of individual accounts."
 risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Directly evidences the mechanism by which forced full-time remote work generates
+  loneliness and isolation (relationship-oriented tensions, 41% of coded data) even while
+  some workers report new or deepened connections, supporting SNH's contention that remote-
+  work social health outcomes are bidirectional/tension-laden rather than uniformly
+  negative. Also supplies concrete, quotable practitioner recommendations (longer meetings
+  with buffer time for small talk, dedicated non-work channels) relevant to designing
+  interventions.
 tags:
-  topic: ["remote-work", "burnout", "loneliness", "isolation", "wellbeing", "job-satisfaction", "collaboration"]
-  method: ["cross-sectional", "survey", "qualitative", "theory"]
-  population: ["tech", "education", "white-collar", "remote-workers"]
+  topic: ["remote-work", "isolation", "loneliness", "wellbeing", "collaboration", "social-support"]
+  method: ["qualitative", "survey"]
+  population: ["knowledge-workers", "education-sector"]
 source:
   markdown: "Papers_Data/Remote Workers/MD/Communicative Tensions in Remote Work During the COVID-19 Pandemic/Communicative Tensions in Remote Work During the COVID-19 Pandemic.md"
-  pdf: null
+  pdf: "papers/Remote Workers/Communicative Tensions in Remote Work During the COVID-19 Pandemic.pdf"
   notes: null

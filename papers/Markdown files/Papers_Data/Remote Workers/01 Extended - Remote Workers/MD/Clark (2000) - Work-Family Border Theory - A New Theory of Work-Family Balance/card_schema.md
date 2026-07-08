@@ -1,50 +1,67 @@
-id: "clark-2000-work-family-border-theory-a-new-theory-of-work-family-balan"
-title: "Work/family border theory: A new theory of work/family balance"
-authors: ["Clark, Sue Campbell"]
+id: "clark-2000-work-family-border-theory-a-new"
+title: "Work/Family Border Theory: A New Theory of Work/Family Balance"
+authors:
+  - "Clark, Sue Campbell"
 year: 2000
-doi: null
-venue: {type: "report", name: null, volume: 53, issue: 6, pages: "747–770"}
-citation: "Clark (2000). Work/family border theory: A new theory of work/family balance."
-article_type: "empirical"
-method: {design: "cross-sectional", approach: "survey", evidence_level: "weak", preregistered: false}
+doi: "10.1177/0018726700536001"
+venue: {type: "journal", name: "Human Relations", volume: 53, issue: 6, pages: "747-770"}
+citation: "Clark (2000). Work/Family Border Theory: A New Theory of Work/Family Balance. Human Relations, 53(6), 747-770. https://doi.org/10.1177/0018726700536001"
+article_type: "theory"
+method: {design: "theory", approach: "interview", evidence_level: "speculative", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: This article introduces work/family border theory - a new
-  theory about work/family balance.
+  Clark introduces work/family border theory, arguing that work and home are distinct
+  cultural domains separated by physical, temporal, and psychological borders that people
+  actively negotiate as daily 'border-crossers.' Building the theory from a personal
+  journal, 15 in-depth interviews, and a related 150-person survey (Clark & Farmer, 1998),
+  the article proposes eight testable propositions linking border strength, permeability,
+  flexibility, blending, central participation, and border-keeper support (e.g.,
+  supervisors, spouses) to work/family balance. It contributes a boundary-management
+  vocabulary and mechanism-level hypotheses rather than confirmatory empirical evidence.
 claims:
-  - text: "Relationships between work and family With the growth of the industrial market economy during the past 300 years, a trend began which segmented activities associated with generating income and caring for family members."
+  - text: "In the companion 150-person survey (Clark & Farmer, 1998), employees rated their workplace cultures as more formal, more hierarchical, less collective, less intimate, more doing-oriented, and more money-based than their home cultures, indicating a systematic cultural gap between the two domains."
     evidence: "cross-sectional"
-    support_strength: "weak"
-    outcomes: ["job-satisfaction"]
-    predictors: ["organizational-culture", "social-support"]
-  - text: "Changes in society which increased the numbers of individuals with significant responsibilities both at home and at work fueled the further inquiry into the interdependencies between work and home life."
+    support_strength: "low-to-moderate"
+    outcomes: ["work-life-balance"]
+    predictors: ["organizational-culture", "boundary-management"]
+  - text: "Employees who reported greater cultural difference between work and home also reported communicating less with supervisors about their home lives, suggesting domain dissimilarity suppresses cross-border communication that could otherwise mitigate conflict."
     evidence: "cross-sectional"
-    support_strength: "weak"
-    outcomes: ["job-satisfaction"]
-    predictors: ["organizational-culture", "social-support"]
+    support_strength: "low-to-moderate"
+    outcomes: ["work-life-balance", "communication"]
+    predictors: ["organizational-culture", "boundary-management"]
+  - text: "The theory formalizes eight propositions, including that weak (permeable, flexible) borders facilitate balance when work and home domains are culturally similar, whereas strong borders are needed for balance when domains differ sharply, and that high supervisor/spouse 'other-domain awareness' and commitment predict greater work/family balance."
+    evidence: "theory"
+    support_strength: "speculative"
+    outcomes: ["work-life-balance"]
+    predictors: ["social-support", "boundary-management"]
 population:
-  who: "employees/workers"
-  where: []
+  who: "15 U.S. adults in full-time employment with significant family responsibilities (diverse in age, marital/family status, job flexibility, ethnicity, gender, income), interviewed to build the theory; theory also draws on a separate 150-person survey of employed adults with work and family responsibilities (Clark & Farmer, 1998)."
+  where: ["United States"]
   when: null
-  n: null
-  sector: ["tech", "open-source", "white-collar"]
+  n: 15
+  sector: []
   sample_notes: >
-    One example of an open-systems theory is 'spillover theory' (Staines, 1980), which
-    postulated that in spite of physical and temporal boundaries between work and family,
-    emotions and behaviors in one sphere would carry over to the other (for example, employees
-    having a bad day at work are more likely to be in a bad mood when they return home).
+    Interviewees were convenience-sampled contacts of the author and two research
+    assistants, deliberately chosen for challenging work/family situations rather than
+    representativeness; no response rate or sampling frame reported. The supporting
+    150-person survey (Clark & Farmer, 1998) is an unpublished/conference paper, not
+    independently verifiable in this corpus copy.
 limitation:
-  primary: "Cross-sectional and often self-report design limits causal inference."
-  others: ["Sampling and nonresponse constraints should be checked in the full source when using effect claims."]
-risk_of_bias: "medium"
+  primary: "The theory's empirical grounding rests on a small (n=15), non-representative convenience sample of interviewees and an unpublished companion survey, with none of the eight propositions themselves tested within this article."
+  others:
+    - "Qualitative interview and coding methodology is described only impressionistically, with no coding scheme, inter-rater reliability, or transcript excerpts beyond illustrative anecdotes."
+    - "As a theory-building paper it offers no effect sizes or hypothesis tests for its central claims about border strength and balance."
+risk_of_bias: "high"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Border theory supplies the SNH project's core vocabulary for boundary management in
+  remote/hybrid work -- domain permeability, flexibility, blending, and border-keeper
+  support -- directly informing how to design and measure interventions (e.g., supervisor
+  training, communication norms) aimed at reducing work/family conflict and its downstream
+  effects on isolation, stress, and burnout among remote workers.
 tags:
-  topic: ["open-source", "social-support"]
-  method: ["cross-sectional", "theory"]
-  population: ["employees-workers", "tech", "open-source", "white-collar"]
+  topic: ["work-life-balance", "remote-work", "social-support", "wellbeing", "methodology"]
+  method: ["theory", "qualitative", "interview"]
+  population: ["knowledge-workers", "dual-earner-parents"]
 source:
   markdown: "Papers_Data/Remote Workers/01 Extended - Remote Workers/MD/Clark (2000) - Work-Family Border Theory - A New Theory of Work-Family Balance/Clark (2000) - Work-Family Border Theory - A New Theory of Work-Family Balance.md"
-  pdf: null
+  pdf: "papers/Remote Workers/01 Extended - Remote Workers/Clark (2000) - Work-Family Border Theory - A New Theory of Work-Family Balance.pdf"
   notes: null

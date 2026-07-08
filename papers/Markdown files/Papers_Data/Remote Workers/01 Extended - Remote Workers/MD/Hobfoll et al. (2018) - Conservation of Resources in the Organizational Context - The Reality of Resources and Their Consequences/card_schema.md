@@ -1,50 +1,74 @@
-id: "10.1146/annurev-orgpsych-032117-104640-2"
+id: "hobfoll-2018-conservation-of-resources-in-the-organizational"
 title: "Conservation of Resources in the Organizational Context: The Reality of Resources and Their Consequences"
-authors: ["Hobfoll, Stevan E.", "Halbesleben, Jonathon", "Neveu, Jean-Pierre", "Westman, Mina"]
+authors:
+  - "Hobfoll, Stevan E."
+  - "Halbesleben, Jonathon"
+  - "Neveu, Jean-Pierre"
+  - "Westman, Mina"
 year: 2018
 doi: "10.1146/annurev-orgpsych-032117-104640"
-venue: {type: "journal", name: "Keywords", volume: null, issue: null, pages: null}
-citation: "Hobfoll et al. (2018). Conservation of Resources in the Organizational Context: The Reality of Resources and Their Consequences. Keywords."
-article_type: "theory"
-method: {design: "theory", approach: "modelling", evidence_level: "speculative", preregistered: false}
+venue: {type: "journal", name: "Annual Review of Organizational Psychology and Organizational Behavior", volume: 5, issue: 1, pages: "103-128"}
+citation: "Hobfoll et al. (2018). Conservation of Resources in the Organizational Context: The Reality of Resources and Their Consequences. Annual Review of Organizational Psychology and Organizational Behavior, 5(1), 103-128. https://doi.org/10.1146/annurev-orgpsych-032117-104640"
+article_type: "review"
+method: {design: "review-narrative", approach: "analytical", evidence_level: "moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: One of the major advantages of COR theory is its ability to
-  make a wide range of specific hypotheses that are much broader than those offered by
-  theories that focus on a single central resource, such as control, or that speak about
-  resources in general.
+  This Annual Review article, co-authored by COR theory's originator, restates the theory's
+  four principles and three corollaries (primacy of resource loss, resource investment, the
+  gain paradox, and the desperation principle; resource caravans and caravan passageways)
+  and then surveys post-2014 organizational research testing and extending the theory,
+  including the crossover model by which stress, engagement, and specific resources (e.g.,
+  self-esteem, self-efficacy) transmit between partners, coworkers, leaders and followers,
+  and across cultures. It contributes an integrative framework for why resource loss
+  (isolation, exhaustion, unsupportive environments) spirals faster and harder than resource
+  gain, and why organizational 'passageways' (supportive versus undermining conditions)
+  determine whether individuals and teams can build resilience and engagement.
 claims:
-  - text: "Conservation of Resources in the Organizational Context: The Reality of Resources and Their Consequences Over the past 30 years, conservation of resources (COR) theory has become one of the most widely cited theories in organizational psychology and organizational behavior."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["burnout", "wellbeing", "job-engagement"]
-    predictors: ["workload"]
-  - text: "COR theory has been adopted across the many areas of the stress spectrum, from burnout to traumatic stress."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["burnout", "wellbeing", "job-engagement"]
-    predictors: ["workload"]
+  - text: "In a diary/longitudinal couples study, positive states crossed over between intimate partners: daily work engagement (vigor, dedication) transferred from one partner to the other specifically on days with more frequent interaction (Bakker & Xanthopoulou 2009), and performance self-esteem at Time 1 predicted change in a partner's self-esteem at Time 2 when the partner had low baseline self-esteem (Neff et al. 2013b)."
+    evidence: "longitudinal"
+    support_strength: "moderate"
+    outcomes: ["job-engagement", "wellbeing"]
+    predictors: ["social-support", "team-cohesion"]
+  - text: "In a study of several hundred Japanese employees followed over 12 months (Allen et al. 2016), higher job embeddedness (a resource tied to social networking) buffered the probability of turnover caused by increasing abusive supervision, but this protective effect came at the cost of employees' physical health."
+    evidence: "longitudinal"
+    support_strength: "moderate"
+    outcomes: ["turnover", "stress"]
+    predictors: ["network-structure", "social-support", "leadership-style"]
+  - text: "A three-wave longitudinal study of over 16,000 Finnish firefighters and professionals spanning roughly 10 years (Toker & Biron 2012; Airila et al. 2014) found that regular physical activity and job/personal resources (relationships with others, self-esteem) protected against job burnout and depression, with the resource-work-ability relationship fully mediated by work engagement."
+    evidence: "longitudinal"
+    support_strength: "moderate"
+    outcomes: ["burnout", "depression", "performance"]
+    predictors: ["social-support", "intervention"]
 population:
-  who: "remote workers or employees"
-  where: ["USA", "Israel", "France"]
-  when: null
+  who: "Not a primary study: a narrative synthesis of organizational-psychology research testing Conservation of Resources (COR) theory, drawing on primary studies of professionals, firefighters, healthcare workers, athletes, couples, teams, and job seekers."
+  where: ["USA", "Finland", "Israel", "China", "Netherlands", "Spain", "Switzerland", "Japan", "Singapore", "Belgium", "multi-country"]
+  when: "Primary studies cited mostly published 2007-2017; review published 2018"
   n: null
-  sector: ["tech", "open-source", "education", "healthcare"]
+  sector: ["mixed-sectors"]
   sample_notes: >
-    Population details were not clearly extractable from the markdown; see the source card
-    fields and source path.
+    Aggregate narrative review, not a single sample; no PRISMA-style systematic search
+    protocol is reported, so study selection and inclusion criteria are not reproducible,
+    and the underlying studies vary in design (cross-sectional survey, diary, longitudinal
+    panel) and sample size (from small couple diary studies to a 16,000+ professional
+    cohort).
 limitation:
-  primary: "The markdown did not expose an explicit limitation section; interpret claims according to method and source type."
-  others: ["Use this card as an index and verify fine-grained methodological caveats in the source text."]
-risk_of_bias: "unclear"
+  primary: "As a narrative (non-systematic) literature review co-authored by the theory's originator, study selection is not documented via a reproducible search protocol, creating risk of confirmatory citation bias toward findings that support COR theory."
+  others:
+    - "Individual cited studies vary widely in design quality (cross-sectional survey, diary, longitudinal panel) and are not critically appraised or weighted within the review."
+    - "Most underlying primary studies rely on self-report survey measures, raising common-method-variance concerns the review does not address."
+    - "The cross-cultural section leans heavily on Hofstede's individualism/collectivism framework, a taxonomy criticized elsewhere in the literature for oversimplifying cultural variation."
+risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  COR theory's crossover model and resource-caravan/passageway concepts give the project a
+  mechanism for how organizational support, leader engagement, and work-family resources
+  propagate positive states (engagement, self-efficacy) across teams and into workers' home
+  lives, or conversely how unsupportive 'passageways' accelerate resource-loss spirals into
+  burnout and turnover -- directly informing how SNH interventions should target upstream
+  organizational conditions rather than only individual coping.
 tags:
-  topic: ["burnout", "wellbeing", "open-source"]
-  method: ["theory"]
-  population: ["remote-workers-or-employees", "tech", "open-source", "education", "healthcare"]
+  topic: ["burnout", "job-engagement", "wellbeing", "social-support", "methodology"]
+  method: ["review"]
+  population: ["knowledge-workers", "cross-cultural", "organizational"]
 source:
   markdown: "Papers_Data/Remote Workers/01 Extended - Remote Workers/MD/Hobfoll et al. (2018) - Conservation of Resources in the Organizational Context - The Reality of Resources and Their Consequences/Hobfoll et al. (2018) - Conservation of Resources in the Organizational Context - The Reality of Resources and Their Consequences.md"
-  pdf: null
+  pdf: "papers/Remote Workers/01 Extended - Remote Workers/Hobfoll et al. (2018) - Conservation of Resources in the Organizational Context - The Reality of Resources and Their Consequences.pdf"
   notes: null

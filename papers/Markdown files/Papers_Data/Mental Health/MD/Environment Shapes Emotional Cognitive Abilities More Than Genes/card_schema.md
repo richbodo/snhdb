@@ -1,55 +1,66 @@
-id: "april-2024-environment-shapes-emotional-cognitive-abilities-more-than"
+id: "benke-2024-environment-shapes-emotional-cognitive-abilities-more"
 title: "Environment Shapes Emotional Cognitive Abilities More Than Genes"
-authors: ["April, Featured Genetics Neuroscience ·"]
+authors:
+  - "Benke, Kristopher"
 year: 2024
 doi: null
-venue: {type: "journal", name: "Key Facts:", volume: null, issue: null, pages: null}
-citation: "April (2024). Environment Shapes Emotional Cognitive Abilities More Than Genes. Key Facts:."
-article_type: "empirical"
-method: {design: "cross-sectional", approach: "survey", evidence_level: "weak", preregistered: false}
+venue: {type: "other", name: "Neuroscience News", volume: null, issue: null, pages: null}
+citation: "Benke (2024). Environment Shapes Emotional Cognitive Abilities More Than Genes. Neuroscience News."
+article_type: "commentary"
+method: {design: "cross-sectional", approach: "secondary-data", evidence_level: "low-to-moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for mental-health prevention, social
-  connection, and upstream intervention design: The results reveal that individual
-  differences in first-order cognitive abilities were primarily influenced by genetic
-  factors.
+  This is a science-news summary (Neuroscience News, reporting on a Cell Reports study by
+  Wan et al.) describing a twin study finding that metacognition and mentalizing -- the
+  ability to monitor one's own thinking and to read others' mental states -- are shaped more
+  by shared family environment than by genetics, in contrast to general intelligence which
+  prior work puts at 50-80% heritable. The article contributes an environment-can-outweigh-
+  genetics data point for social-cognitive capacities, relevant to how malleable
+  empathy/mentalizing-adjacent skills may be through environmental or programmatic
+  intervention rather than being fixed traits.
 claims:
-  - text: "These findings suggest that the abilities of metacognition and mentalizing in adults are profoundly shaped by their environmental experiences and less determined by their biological nature."
+  - text: "General intelligence has previously been estimated as 50-80% heritable, but this twin study found metacognition and mentalizing showed a much weaker genetic signal and a stronger shared-environment signal, regardless of zygosity."
     evidence: "cross-sectional"
-    support_strength: "weak"
-    outcomes: []
-    predictors: ["social-support", "team-cohesion"]
-  - text: "Researchers revealed that twins, regardless of genetic similarity, showed similar cognitive traits when raised in similar educational and socioeconomic environments."
+    support_strength: "low-to-moderate"
+    outcomes: ["mental-health"]
+    predictors: ["network-structure"]
+  - text: "Among 57 monozygotic and 48 dizygotic adult twin pairs from the Beijing Twin Study (BeTwiSt), pairs whose parents had higher education and family income showed similarly high metacognitive performance whether the twins were identical or fraternal, pointing to a shared family-environment effect rather than a genetic one."
     evidence: "cross-sectional"
-    support_strength: "weak"
-    outcomes: []
-    predictors: ["social-support", "team-cohesion"]
-  - text: "Findings indicated that twins with parents who had higher education and income levels displayed similar metacognitive abilities, pointing to the influence of shared family environments over genetics."
+    support_strength: "low-to-moderate"
+    outcomes: ["mental-health"]
+    predictors: ["network-structure", "social-support"]
+  - text: "Human cognitive abilities separate into two hierarchical orders: first-order abilities (perception, attention, memory, language, planning) were primarily genetically influenced, while second-order abilities (metacognition and mentalizing) were more influenced by shared environmental/family factors such as parental nurturing and cultural transmission."
     evidence: "cross-sectional"
-    support_strength: "weak"
-    outcomes: []
-    predictors: ["social-support", "team-cohesion"]
+    support_strength: "low-to-moderate"
+    outcomes: ["mental-health"]
+    predictors: ["network-structure"]
 population:
-  who: "mental-health study participants or policy target population"
+  who: "105 adult twin pairs (57 monozygotic, 48 dizygotic) drawn from the ongoing Beijing Twin Study (BeTwiSt) cohort, performing perceptual-decision and confidence/mentalizing tasks"
   where: ["China"]
-  when: null
-  n: null
-  sector: ["tech", "education"]
+  when: "News article published April 18, 2024, reporting a study published April 2, 2024 in Cell Reports; BeTwiSt cohort established 2006"
+  n: 105
+  sector: []
   sample_notes: >
-    Participants performed tasks that measured their ability to assess motion direction and
-    their confidence in decisions, along with their capacity to evaluate others' mental states.
-    - 3.
+    Sample size and recruitment described only at the level of a news summary; no detail on
+    response rate, exclusion criteria, or representativeness of the BeTwiSt cohort relative
+    to the general population is given in this document.
 limitation:
-  primary: "The researchers acknowledge that there are limitations to this research and that many more studies are needed."
-  others: ["They plan to continue their research in this area, including using population studies to further investigate what kind of specific parental nurturing factors and sociocultural values affect individuals' metacognitive and mentalizing...", "Funding: This research was supported by the Ministry of Science and Technology of the People's Republic of China, the National Natural Science Foundation of China, the Interdisciplinary Innovation Team of the Chinese Academy of Sciences..."]
+  primary: "This document is a secondary press-style summary of a single twin study, not the primary literature or an independent methodological review, so effect sizes, confidence intervals, and model specification for the heritability/shared-environment estimates are not reported here."
+  others:
+    - "Findings come from one cohort in Beijing, China and may not generalize to other populations or cultural contexts."
+    - "The underlying study's own authors caution the findings were unexpected relative to decades of twin research and call for further replication and population studies."
 risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for upstream mental-health framing, social connection mechanisms, prevention design,
-  and measurement vocabulary that can inform the SNH theoretical model.
+  Speaks to how malleable social-cognitive capacities like mentalizing (reading others'
+  emotional/mental states) may be by shared environment rather than fixed by genetics, which
+  is suggestive background for the SNH project's assumption that
+  community/family/organizational environment can shift capacities underlying empathy and
+  social connection -- though the evidence is indirect, drawn from a general-population twin
+  study rather than remote-work or community-health contexts.
 tags:
-  topic: ["collaboration"]
-  method: ["cross-sectional", "survey"]
-  population: ["mental-health-study-participants-or-poli", "tech", "education"]
+  topic: ["mental-health", "measurement"]
+  method: ["cross-sectional", "secondary-data"]
+  population: ["general-population", "adults"]
 source:
   markdown: "Papers_Data/Mental Health/MD/Environment Shapes Emotional Cognitive Abilities More Than Genes/Environment Shapes Emotional Cognitive Abilities More Than Genes.md"
-  pdf: null
-  notes: null
+  pdf: "papers/Mental Health/Environment Shapes Emotional Cognitive Abilities More Than Genes.pdf"
+  notes: "no-doi: confirmed none (manual review)"

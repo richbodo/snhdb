@@ -1,49 +1,73 @@
-id: "10.1037/a0020141.supp"
-title: "A General Multilevel SEM Framework for Assessing Multilevel Mediation"
-authors: []
-year: 2008
+id: "anon-2010-supplemental-material-for-a-general-multilevel"
+title: "Supplemental Material for A General Multilevel SEM Framework for Assessing Multilevel Mediation"
+authors:
+year: 2010
 doi: "10.1037/a0020141.supp"
-venue: {type: "thesis", name: "Zhen Zhang Arizona State University", volume: null, issue: null, pages: null}
-citation: "Unknown author (2008). A General Multilevel SEM Framework for Assessing Multilevel Mediation. Zhen Zhang Arizona State University."
-article_type: "theory"
-method: {design: "theory", approach: "modelling", evidence_level: "speculative", preregistered: false}
+venue: {type: "journal", name: "Psychological Methods", volume: null, issue: null, pages: null}
+citation: "Psychological Methods (2010). Supplemental Material for A General Multilevel SEM Framework for Assessing Multilevel Mediation. Psychological Methods. https://doi.org/10.1037/a0020141.supp"
+article_type: "methods"
+method: {design: "methods", approach: "modelling", evidence_level: "reference", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for mental-health prevention, social
-  connection, and upstream intervention design: Here we show that a multilevel structural
-  equation modeling (MSEM) paradigm can overcome these 2 limitations of mediation analysis
-  with MLM.
+  This is a statistics methods paper (Preacher, Zyphur, & Zhang, 2010, Psychological
+  Methods) that develops a general multilevel structural equation modeling (MSEM) framework
+  for testing mediation hypotheses in nested/clustered data, such as individuals nested in
+  teams or organizations. It shows analytically that conventional multilevel modeling (MLM)
+  approaches to mediation conflate within-group and between-group effects and cannot handle
+  designs where the mediator or outcome is measured at the group level, and it demonstrates
+  with three re-analyzed datasets that MSEM can yield substantively different conclusions
+  than conventional MLM/two-step approaches, including finding a significant indirect effect
+  of perceived transformational leadership on team performance via team satisfaction where a
+  standard aggregation approach found none. For the SNH project it functions as the
+  reference method for correctly testing multilevel mediation hypotheses (e.g., team-level
+  leadership or culture predicting individual burnout or turnover via individual-level
+  social support or engagement) without the conflation bias inherent to naive MLM mediation
+  tests.
 claims:
-  - text: "Using data from customer service engineers working in teams, Maynard, Mathieu, Marsh, and Ruddy (2007) found that team-level interpersonal processes mediate the relationship between team-level resistance to empowerment and individual job satisfaction."
+  - text: "Standard MLM approaches to mediation with nested data conflate the between-group and within-group components of the indirect effect into a single biased slope, and the common group-mean-centering fix (the 'unconflated multilevel model,' UMM) still yields a biased between-group indirect effect when cluster sizes are small or a predictor's intraclass correlation (ICC) is low; the paper derives the expected bias analytically (Eq. 1-2)."
     evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["job-satisfaction", "isolation"]
-    predictors: ["team-cohesion"]
-  - text: "Both of these examples - and many others - involve data that vary both within and between higher level units."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["job-satisfaction", "isolation"]
-    predictors: ["team-cohesion"]
+    support_strength: "strong"
+    outcomes: ["measurement-bias"]
+    predictors: ["sampling-method"]
+  - text: "Reanalyzing survey data from 79 team leaders and 429 team members at a Chinese telecom customer-service center, MSEM found a significant indirect effect of leader-reported shared vision on member-reported team potency via leader identification with the team (indirect effect = .218, 90% CI [0.055, 0.432]), a larger and less precise estimate than the conventional two-step OLS+MLM approach applied to the identical data (.146, p < .05, 90% CI [0.044, 0.269])."
+    evidence: "cross-sectional"
+    support_strength: "moderate"
+    outcomes: ["collaboration"]
+    predictors: ["leadership-style", "team-cohesion"]
+  - text: "Reanalyzing the same team dataset for an upward (bottom-up) 1-1-2 mediation model, MSEM found a significant indirect effect of members' perceived transformational leadership on manager-rated team performance via team satisfaction (a x b = .697, 90% CI [0.022, 1.459]), whereas the conventional two-step aggregation approach on the identical data found no significant effect (a x b = .053, p < .85), showing that method choice alone can reverse a mediation study's substantive conclusion."
+    evidence: "cross-sectional"
+    support_strength: "moderate"
+    outcomes: ["performance", "job-satisfaction"]
+    predictors: ["leadership-style"]
 population:
-  who: "mental-health study participants or policy target population"
-  where: ["Australia"]
-  when: null
+  who: "Not a substantive study population; the paper's target audience is quantitative researchers testing multilevel mediation hypotheses. Its three illustrative reanalyses use: (1) 2,993 sixth-grade students nested in 126 teachers from the Michigan Study of Adolescent Life Transitions (1983-1985); (2) and (3) 429 team members nested in 79 team leaders at a Chinese telecommunications customer-service center."
+  where: ["USA", "China"]
+  when: "1983-1985 (Example 1, MSALT); data period unreported for Examples 2-3 (customer service center dataset)"
   n: null
-  sector: ["tech", "open-source", "education"]
+  sector: ["education", "telecommunications"]
   sample_notes: >
-    Population details were not clearly extractable from the markdown; see the source card
-    fields and source path.
+    The datasets are re-used purely to demonstrate the MSEM technique, not to test SNH-
+    relevant hypotheses; no response-rate or representativeness information is given, and
+    results should not be read as generalizable substantive findings about leadership,
+    teams, or students.
 limitation:
-  primary: "First Limitation of MLM Framework for Multilevel Mediation: Conflation of Between and Within Effects (Designs 1 to 3 in Table 1) In two-level designs, it is possible to partition the variance of a variable in clustered data into two orthogonal latent..."
-  others: ["Variables assessed at Level 2 have only Between components of variance.", "Similarly, the Within component of a variable is necessarily uncorrelated with the Between component of that variable and the Between components of all other variables in the model."]
-risk_of_bias: "unclear"
+  primary: "As a statistical methods paper, its 'results' are illustrative model comparisons on datasets unrelated to social network health (student achievement, team potency, leadership) rather than tests of loneliness, isolation, burnout, or turnover, so its relevance to the project is entirely methodological (how to correctly analyze nested SNH data), not substantive."
+  others:
+    - "The proposed MSEM framework cannot easily accommodate more than two hierarchical levels and cannot use restricted maximum likelihood estimation for small samples."
+    - "Confidence-interval methods for MSEM indirect effects (e.g., the parametric bootstrap used here) were novel and less validated at time of publication than single-level mediation CI methods."
+    - "The authors' own examples show that 2-2-1 and 1-1-2 indirect-effect estimates are highly sensitive to modeling choice (MSEM vs. two-step/aggregation), so applied use requires careful, theory-driven specification to avoid analogous over- or under-estimation of effects."
+risk_of_bias: "not-applicable"
 relevance_to_project: >
-  Useful for upstream mental-health framing, social connection mechanisms, prevention design,
-  and measurement vocabulary that can inform the SNH theoretical model.
+  Provides the statistical framework the project would need to correctly test multilevel
+  mediation hypotheses common in SNH research -- e.g., whether team-level leadership style
+  or organizational culture affects individual burnout or turnover via individual-level
+  social support, isolation, or engagement -- without the within/between conflation bias
+  that its own examples show can flip a mediation study's substantive conclusion
+  (significant vs. null).
 tags:
-  topic: ["isolation", "job-satisfaction", "open-source", "collaboration"]
-  method: ["theory"]
-  population: ["mental-health-study-participants-or-poli", "tech", "open-source", "education"]
+  topic: ["methodology", "measurement"]
+  method: ["structural-equation-modeling", "multilevel-modeling", "quantitative"]
+  population: ["students", "teams", "employees"]
 source:
   markdown: "Papers_Data/Mental Health/01 Mental Health - Extended/MD/A General Multilevel SEM Framework for Assessing Multilevel Mediation/A General Multilevel SEM Framework for Assessing Multilevel Mediation.md"
-  pdf: null
+  pdf: "papers/Mental Health/01 Mental Health - Extended/A General Multilevel SEM Framework for Assessing Multilevel Mediation.pdf"
   notes: null

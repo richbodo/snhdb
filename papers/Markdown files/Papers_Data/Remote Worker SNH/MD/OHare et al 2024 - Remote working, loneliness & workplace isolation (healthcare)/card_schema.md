@@ -1,55 +1,74 @@
-id: "10.1192/bjo.2024.7"
+id: "o-2024-a-cross-sectional-investigation-on-remote"
 title: "A cross-sectional investigation on remote working, loneliness, workplace isolation, well-being and perceived social support in healthcare workers"
-authors: ["O'Hare, Dearbhla", "Gaughran, Fiona", "Stewart, Robert", "Costa, Mariana Pinto da"]
+authors:
+  - "O'Hare, Dearbhla"
+  - "Gaughran, Fiona"
+  - "Stewart, Robert"
+  - "Pinto da Costa, Mariana"
 year: 2024
 doi: "10.1192/bjo.2024.7"
-venue: {type: "journal", name: "Background", volume: null, issue: null, pages: null}
-citation: "O'Hare et al. (2024). A cross-sectional investigation on remote working, loneliness, workplace isolation, well-being and perceived social support in healthcare workers. Background."
-article_type: "review"
-method: {design: "review-systematic", approach: "secondary-data", evidence_level: "strong", preregistered: false}
+venue: {type: "journal", name: "BJPsych Open", volume: 10, issue: 2, pages: null}
+citation: "O'Hare et al. (2024). A cross-sectional investigation on remote working, loneliness, workplace isolation, well-being and perceived social support in healthcare workers. BJPsych Open, 10(2). https://doi.org/10.1192/bjo.2024.7"
+article_type: "empirical"
+method: {design: "cross-sectional", approach: "survey", evidence_level: "low-to-moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for SNH remote-worker social connection,
-  workplace isolation, remote collaboration, sampling, and prevention design: Results A total
-  of 520 participants responded to the study, of whom 112 were men (21.5%) and 406 were women
-  (78.1%), with an age range of 21-77 years (mean 40.0, s.d. = 12.1).
+  In an online cross-sectional survey of 477 mental healthcare staff at a large UK NHS trust
+  (SLaM) during 2022, remote working during COVID-19 had expanded from 3.1% to 96.9% of the
+  sample, and working more hours remotely was associated with higher current stress and
+  lower work satisfaction but also higher perceived productivity. Current loneliness and
+  workplace isolation were both linked to poorer well-being and greater mental distress,
+  while perceived social support was positively associated with well-being; however, social
+  support did not significantly moderate the loneliness-well-being or isolation-well-being
+  relationships. The study frames workplace isolation and loneliness as direct threats to
+  healthcare staff well-being and mental distress, with implications for hybrid-work policy
+  design in high-stakes caregiving organizations.
 claims:
-  - text: "Very few (3.1%) worked remotely before the COVID-19 pandemic, and this had increased significantly (96.9%)."
-    evidence: "review-systematic"
-    support_strength: "strong"
-    outcomes: ["wellbeing", "mental-health", "job-satisfaction", "productivity", "loneliness", "isolation"]
-    predictors: ["remote-work-intensity", "loneliness", "social-support", "leadership-style"]
-  - text: "Those who worked ≥31 h a week remotely reported higher stress and lower workplace satisfaction at that time, compared with office work, yet also felt more productive."
-    evidence: "review-systematic"
-    support_strength: "strong"
-    outcomes: ["wellbeing", "mental-health", "job-satisfaction", "productivity", "loneliness", "isolation"]
-    predictors: ["remote-work-intensity", "loneliness", "social-support", "leadership-style"]
-  - text: "Current loneliness, workplace isolation and perceived social support were cross-sectionally associated with lower current well-being."
-    evidence: "review-systematic"
-    support_strength: "strong"
-    outcomes: ["wellbeing", "mental-health", "job-satisfaction", "productivity", "loneliness", "isolation"]
-    predictors: ["remote-work-intensity", "loneliness", "social-support", "leadership-style"]
+  - text: "Healthcare staff who worked >=31 hours a week remotely during the pandemic reported significantly higher current stress (chi-squared(6,481)=17.17, P<0.05) and lower work satisfaction (chi-squared(6,480)=15.01, P=0.02) than those working fewer remote hours, but also higher perceived productivity (chi-squared(6,480)=17.48, P<0.05)."
+    evidence: "cross-sectional"
+    support_strength: "low-to-moderate"
+    outcomes: ["stress", "job-satisfaction", "productivity"]
+    predictors: ["remote-work-intensity"]
+  - text: "In multiple regression, loneliness, workplace isolation and perceived social support jointly explained 35% of variance in WHO-5 well-being scores (F(3,397)=69.46, P<0.001); higher loneliness was uniquely associated with lower well-being (B=-0.19, P<0.001) and perceived social support was positively associated with well-being (B=0.32, P<0.001), while workplace isolation was not a significant unique predictor of well-being (B=0.04, P=0.08)."
+    evidence: "cross-sectional"
+    support_strength: "low-to-moderate"
+    outcomes: ["wellbeing"]
+    predictors: ["loneliness", "isolation", "social-support"]
+  - text: "For mental distress (GHQ-12), the model explained 14.0% of variance (F(3,374)=19.68, P<0.001); higher loneliness (B=0.16, P=0.04) and higher workplace isolation (B=-0.08, P=0.03) were both significantly associated with distress, but perceived social support did not significantly moderate the loneliness-well-being, isolation-well-being, loneliness-distress, or isolation-distress relationships in follow-up moderation analyses."
+    evidence: "cross-sectional"
+    support_strength: "low-to-moderate"
+    outcomes: ["mental-health", "wellbeing"]
+    predictors: ["loneliness", "isolation", "social-support"]
 population:
-  who: "remote workers"
-  where: ["USA", "UK"]
-  when: "COVID-19 pandemic"
-  n: 520
-  sector: ["tech", "open-source", "education", "healthcare", "white-collar", "remote-workers"]
+  who: "Mental healthcare workers (clinical and support staff) at South London and Maudsley NHS Foundation Trust (SLaM), a large UK mental health provider"
+  where: ["UK"]
+  when: "April 2022 to September 2022"
+  n: 477
+  sector: ["healthcare"]
   sample_notes: >
-    Results A total of 520 participants responded to the study, of whom 112 were men (21.5%)
-    and 406 were women (78.1%), with an age range of 21-77 years (mean 40.0, s.d. = 12.1).
+    Self-selected online sample recruited via mailing lists, social media, posters and
+    presentations; 477 of 3,418 SLaM healthcare workers responded (14% participation rate),
+    broadly representative of trust gender/ethnicity demographics but response rate limits
+    generalisability; recruitment framing around remote working may have oversampled staff
+    with more remote-work experience.
 limitation:
-  primary: "Strengths and limitations This study reports findings from a large mental healthcare provider, adding to the limited literature on the impact of the COVID-19 pandemic and remote working on healthcare workers in the UK and providing further understanding of..."
-  others: ["However, the response rate of 14% of SLaM healthcare staff limits the generalisability of the results to the entire population.", "The cross-sectional survey nature of this study and data collection methods prevents the ability to test causative effects of remote working."]
-risk_of_bias: "low"
+  primary: "Cross-sectional design precludes causal inference about whether remote working, loneliness, or isolation drive well-being differences, and current loneliness/isolation/well-being measures were not time-matched to the retrospective remote-work-hours item."
+  others:
+    - "Low response rate (14%) limits generalisability beyond this single NHS trust."
+    - "Single-item self-report measures of productivity, stress and satisfaction during remote work rely on retrospective subjective judgment and are prone to social-desirability and recall bias."
+    - "Sample size precluded more complex mediated-moderation modelling, and data collection coincided with the trust operating under maximum-level (OPEL 4) operational pressure, a potential confound."
+risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for the SNH remote-worker evidence stream because it indexes social connection,
-  workplace isolation, loneliness, remote collaboration, sampling, and upstream prevention
-  mechanisms.
+  Provides a healthcare-sector, quantitative benchmark for how remote-work intensity,
+  loneliness, and workplace isolation independently relate to well-being and mental
+  distress, useful for calibrating SNH outcome measures (WHO-5, GHQ-12, UCLA Loneliness
+  Scale, Workplace Isolation Scale) and for testing whether perceived social support
+  functions as a moderator (here it did not) versus a main-effect predictor of remote-worker
+  well-being.
 tags:
-  topic: ["remote-work", "mental-health", "loneliness", "isolation", "wellbeing", "job-satisfaction", "productivity", "open-source", "social-support"]
-  method: ["review-systematic", "survey", "cross-sectional", "systematic-review"]
-  population: ["tech", "open-source", "education", "healthcare", "white-collar", "remote-workers"]
+  topic: ["remote-work", "loneliness", "isolation", "wellbeing", "mental-health", "social-support"]
+  method: ["cross-sectional", "survey"]
+  population: ["healthcare"]
 source:
   markdown: "Papers_Data/Remote Worker SNH/MD/OHare et al 2024 - Remote working, loneliness & workplace isolation (healthcare)/OHare et al 2024 - Remote working, loneliness & workplace isolation (healthcare).md"
-  pdf: null
+  pdf: "papers/Remote Worker SNH/OHare et al 2024 - Remote working, loneliness & workplace isolation (healthcare).pdf"
   notes: null

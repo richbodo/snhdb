@@ -61,23 +61,36 @@ path so the human can open it.
 ## Pitfalls
 
 - `papers/Papers Data - Markdown Files Backup/` is a **legacy duplicate** — always exclude
-  it (`--glob "!*Backup*"`) or you will double-count papers.
-- Some PDFs have no markdown conversion yet. If a stage-1 hit has no `MD/<paper>` folder,
-  say so and fall back to the PDF (note it as unconverted) rather than silently skipping it.
-- **Treat card metadata as an index, not a source of truth.** Cards have been observed with
-  wrong `doi:` values, empty `authors:`, and mislabeled `method.design:`/tag fields — always
-  confirm DOI, authors, and design from the full-text markdown (title/citation block is at
-  the top) before citing. The card `title:` is sometimes the filename, not the paper title.
-- In some topics the `gist:`/`relevance_to_project:` blurbs are templated boilerplate —
-  rank relevance by `title:` and `claims[].text`, not by the gist.
+  it (`--glob "!*Backup*"`) or you will double-count papers. (Scheduled for deletion.)
 - Directory names contain spaces and punctuation (`&`, parentheses) — quote paths in shell
   commands.
 - Cards' `source.markdown` values are prefixed `Papers_Data/…` but the files live under
   `papers/Markdown files/Papers_Data/…` — prepend the missing segment when resolving.
-- Some conversions dropped the paper's journal/DOI header line; cite those as "DOI
-  unverified in corpus copy" instead of trusting the card's `doi:`.
-- Duplicate copies exist beyond the Backup dir (`(1)`/`(2)` suffixes, `01 Extended` trees) —
-  if the same paper matches twice, cite it once and prefer the non-suffixed copy.
+- A handful of sources are not papers (blog posts, HBR pieces, dissertations, reports,
+  one whole journal issue). Their cards say so: `doi: null` plus a `source.notes`
+  beginning `no-doi:` explaining why. `risk_of_bias`/`support_strength` reflect that.
+- Known damaged conversions (fix pending, see docs/CORPUS_REPAIR_PLAN.md Phase 4):
+  `World Health Statistics 2023` (first 50 of 136 pages), `Workplace Isolation Occurring
+  in Remote Workers` (dissertation truncated after ch. 1), the Reddit-thread stub (login
+  wall only), and the corrupt UyBico 2007 PDF.
+- The same paper occasionally appears in two topic folders (e.g. the Wyman 2019
+  peer-adult network paper, Wingman-Connect) — cite it once.
+
+**Card trust status (since the 2026-07 repair):** cards were regenerated from full text
+with Crossref-verified bibliographic metadata. `doi`, `authors`, `year`, `venue`,
+`citation` are verified (see `tools/audit/out/verified_metadata.json`); `gist`, `claims`,
+`population`, `limitation`, `relevance_to_project` were written by an LLM reading the
+full markdown, behind a validation gate plus a numeric-fidelity screen. For high-stakes
+citations still confirm the claim in the full text — the card tells you where to look.
+
+## Corpus health checks
+
+`tools/audit/` is the standing audit harness (needs brew poppler + python pyyaml):
+`build_manifest.py` → `analyze.py` (inventory + issue counts), `crossref_check.py`
+(DOI verification), `check_claim_fidelity.py` (claim numbers vs source text). The
+combined `*_Card_Schemas.md` files are **generated** — never edit them by hand; edit the
+per-paper `MD/<paper>/card_schema.md` and run `build_combined_cards.py`. Run the audit
+before any Drive sync or toolkit.socialnetwork.health ingestion.
 
 ## Conventions for changes
 

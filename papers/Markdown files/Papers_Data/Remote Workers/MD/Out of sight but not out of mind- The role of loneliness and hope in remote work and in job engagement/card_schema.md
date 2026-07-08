@@ -1,54 +1,70 @@
-id: "10.1108/itp-12-2020-0850"
+id: "bareket-2023-out-of-sight-but-not-out"
 title: "Out of sight but not out of mind: The role of loneliness and hope in remote work and in job engagement"
-authors: ["Bareket-Bojmel, Liad", "Chernyak-Hai, Lily", "Margalit, Malka"]
-year: 2005
-doi: "10.1108/itp-12-2020-0850"
-venue: {type: "journal", name: "Personality and Individual Differences", volume: null, issue: null, pages: null}
-citation: "Bareket-Bojmel et al. (2005). Out of sight but not out of mind: The role of loneliness and hope in remote work and in job engagement. Personality and Individual Differences."
+authors:
+  - "Bareket-Bojmel, Liad"
+  - "Chernyak-Hai, Lily"
+  - "Margalit, Malka"
+year: 2023
+doi: "10.1016/j.paid.2022.111955"
+venue: {type: "journal", name: "Personality and Individual Differences", volume: 202, issue: null, pages: "111955"}
+citation: "Bareket-Bojmel et al. (2023). Out of sight but not out of mind: The role of loneliness and hope in remote work and in job engagement. Personality and Individual Differences, 202, 111955. https://doi.org/10.1016/j.paid.2022.111955"
 article_type: "empirical"
 method: {design: "cross-sectional", approach: "survey", evidence_level: "moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: In a world in which remote and hybrid work is becoming the new
-  normal, the current study examines the relationship between remote work and job engagement
-  and the roles that loneliness and hope play in this setting.
+  A survey of 349 US/UK employees found that remote work does not uniformly reduce job
+  engagement; instead, loneliness moderates the relationship, with remote work predicting
+  significantly lower engagement only for employees with moderate or high loneliness, not
+  for those with low loneliness. A moderated-mediation model further showed that among
+  highly lonely employees, remote work was positively associated with hope, which in turn
+  predicted higher job engagement, suggesting hope as a resource that can offset engagement
+  loss in this vulnerable group. The authors argue this challenges the blanket assumption
+  that remote work harms engagement and instead points to loneliness-targeted and hope-
+  building interventions as the design lever.
 claims:
-  - text: "The analysis identified a moderated mediation model."
+  - text: "Loneliness significantly moderated the relationship between remote work and job engagement (b = -0.04, SE = 0.01, beta = -0.11, p = .01); simple slopes showed remote work significantly and negatively predicted job engagement for employees with high loneliness (b = -0.08, beta = -0.23, p < .001) and moderate loneliness (b = -0.04, beta = -0.12, p = .01), but not for those with low loneliness (b = -0.001, p = .96)."
     evidence: "cross-sectional"
     support_strength: "moderate"
-    outcomes: ["wellbeing", "mental-health", "job-engagement", "job-satisfaction", "productivity", "performance"]
-    predictors: ["remote-work-intensity", "loneliness", "hope", "leadership-style", "open-source-maintenance"]
-  - text: "Among employees with low levels of loneliness, no significant relationship between remote work and job engagement was found."
+    outcomes: ["job-engagement"]
+    predictors: ["loneliness", "remote-work-intensity"]
+  - text: "Among employees with high loneliness, remote work significantly predicted higher hope (b = 0.09, SE = 0.03, beta = 0.19, p = .006), and hope significantly predicted job engagement (b = 0.41, beta = 0.57, p < .001); a bootstrapped moderated-mediation index (0.02, 95% CI [0.002, 0.04]) confirmed hope mediated the remote work-engagement link specifically at high loneliness levels, with no significant mediation at average or low loneliness."
     evidence: "cross-sectional"
     support_strength: "moderate"
-    outcomes: ["wellbeing", "mental-health", "job-engagement", "job-satisfaction", "productivity", "performance"]
-    predictors: ["remote-work-intensity", "loneliness", "hope", "leadership-style", "open-source-maintenance"]
-  - text: "Remote work predicted decreased job engagement only for employees with high and moderate levels of loneliness."
+    outcomes: ["job-engagement"]
+    predictors: ["hope", "loneliness", "remote-work-intensity"]
+  - text: "Hope and loneliness were strongly negatively correlated (r = -0.46, p < .001), and loneliness was negatively correlated with job engagement (r = -0.27, p < .001), while remote work days showed no significant zero-order correlation with either job engagement (r = -0.07) or hope (r = 0.05), indicating loneliness -- not remote work per se -- is the key risk factor."
     evidence: "cross-sectional"
     support_strength: "moderate"
-    outcomes: ["wellbeing", "mental-health", "job-engagement", "job-satisfaction", "productivity", "performance"]
-    predictors: ["remote-work-intensity", "loneliness", "hope", "leadership-style", "open-source-maintenance"]
+    outcomes: ["job-engagement"]
+    predictors: ["loneliness", "hope"]
 population:
-  who: "remote workers"
-  where: ["UK", "Israel"]
-  when: "COVID-19 pandemic"
+  who: "349 employees (170 men, 177 women, 2 other) from the US and UK, employed at least 20 hours/week (excluding freelancers), recruited via the Prolific online platform"
+  where: ["United States", "United Kingdom"]
+  when: null
   n: 349
-  sector: ["tech", "open-source", "education", "healthcare", "white-collar", "remote-workers"]
+  sector: ["general-workforce"]
   sample_notes: >
-    Participants were 349 employees from the US and UK (170 men, 177 women, and two others),
-    aged 21-69 ( M = 38.8, SD = 9.9).
+    Recruited via Prolific with high-reputation filter (>=95% prior approval rate); 51 of
+    400 initial respondents excluded for failing prescreening/attention checks. 61% UK, 33%
+    US, 6% other nationality; ages 21-69 (M=38.81, SD=9.95); 69% worked remotely at least
+    one day/week, 35% fully remote (5 days), 31% fully office-based -- sample skewed toward
+    high-frequency remote workers, limiting generalizability to low/no remote-work contexts.
 limitation:
-  primary: "Limitations and future directions Our study is not without limitations, one of which is the fact that it was correlational and used a single sample which may increase the risk of common method variance CMV."
-  others: ["While several scholars have argued that common method variance does not invalidate most research findings (e.g., Spector, 2006), we used procedural design procedures (confidentiality and anonymity, and separate questionnaire sections and...", "All the scales we used were established and valid, and we used attention check questions to test Fig."]
+  primary: "Cross-sectional, single-sample correlational design (all self-report) precludes causal inference and raises common method variance concerns, though procedural safeguards (anonymity, separated question blocks, attention checks) were used to mitigate this."
+  others:
+    - "Unequal representation across remote-work intensity, with a disproportionate share working fully remote (5 days/week), limiting power to detect effects at intermediate remote-work levels."
+    - "Remote work was measured with a single item (days worked remotely) rather than a validated multidimensional measure, and burnout was not assessed despite being theoretically relevant."
 risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Directly informs SNH design by identifying loneliness as the moderating variable that
+  determines whether remote work harms engagement, and hope as a candidate intervention
+  target/mediator that can protect engagement specifically among lonely remote workers --
+  supporting a targeted (not blanket) intervention design for remote-worker social network
+  health.
 tags:
-  topic: ["remote-work", "hybrid-work", "mental-health", "loneliness", "isolation", "wellbeing", "job-engagement", "productivity", "open-source", "collaboration"]
-  method: ["cross-sectional", "theory"]
-  population: ["tech", "open-source", "education", "healthcare", "white-collar", "remote-workers"]
+  topic: ["remote-work", "loneliness", "job-engagement", "wellbeing"]
+  method: ["survey", "cross-sectional"]
+  population: ["remote-workers", "general-workforce"]
 source:
   markdown: "Papers_Data/Remote Workers/MD/Out of sight but not out of mind- The role of loneliness and hope in remote work and in job engagement/Out of sight but not out of mind- The role of loneliness and hope in remote work and in job engagement.md"
-  pdf: null
+  pdf: "papers/Remote Workers/Out of sight but not out of mind- The role of loneliness and hope in remote work and in job engagement.pdf"
   notes: null

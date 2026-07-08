@@ -1,47 +1,61 @@
-id: "thompson-2022-why-open-source-developers-are-burning-out"
+id: "thompson-2022-why-open-source-developers-are-burning"
 title: "Why Open-Source Developers Are Burning Out"
-authors: ["Thompson, Clive"]
+authors:
+  - "Thompson, Clive"
 year: 2022
 doi: null
-venue: {type: "report", name: "Create an account to read the full story.", volume: null, issue: null, pages: null}
-citation: "Thompson (2022). Why Open-Source Developers Are Burning Out. Create an account to read the full story.."
+venue: {type: "other", name: "Better Programming (Medium)", volume: null, issue: null, pages: null}
+citation: "Thompson (2022). Why Open-Source Developers Are Burning Out. Better Programming (Medium)."
 article_type: "commentary"
-method: {design: "theory", approach: "documentary", evidence_level: "weak", preregistered: false}
+method: {design: "case-study", approach: "other", evidence_level: "speculative", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for open-source maintainer wellbeing and
-  sustainability: Open-source was supposed to be a barn-raising.
+  This Medium/Better Programming piece uses the January 2022 'colors' npm library incident —
+  in which maintainer Marak Squires intentionally sabotaged his own widely-used code,
+  breaking thousands of dependent apps — as a case study for arguing that open-source
+  maintenance has become unpaid, unsustainable labor performed by stressed individuals
+  rather than the collaborative 'barn-raising' the movement promised. The corpus copy
+  available here is truncated at Medium's paywall, so only the opening anecdote and framing
+  are present, not the article's full argument or sourcing.
 claims:
-  - text: "Why Open-Source Developers Are Burning Out Open-source was supposed to be a barn-raising."
-    evidence: "theory"
-    support_strength: "weak"
-    outcomes: []
-    predictors: ["organizational-culture", "open-source-maintenance", "team-cohesion"]
-  - text: "It turned into unpaid labor by stressed-out individuals Clive Thompson · Follow Published in Better Programming 9 min read · Jan 13, 2022 There's a software library called \"colors\", which does one simple thing: It lets programmers change the color of text in Node apps."
-    evidence: "theory"
-    support_strength: "weak"
-    outcomes: []
-    predictors: ["organizational-culture", "open-source-maintenance", "team-cohesion"]
+  - text: "The npm library 'colors', used by roughly 19,000 software projects with over 20 million weekly downloads, was deliberately sabotaged by its own maintainer, Marak Squires, who added an infinite loop producing garbled output and breaking dependent applications."
+    evidence: "case-study"
+    support_strength: "speculative"
+    outcomes: ["burnout"]
+    predictors: ["open-source-maintenance", "workload"]
+  - text: "Unnamed observers linked the sabotage to burnout, noting Squires had recently said he was feeling burned out and speculating about unspecified mental-health issues as a contributing factor."
+    evidence: "case-study"
+    support_strength: "speculative"
+    outcomes: ["burnout", "mental-health"]
+    predictors: ["open-source-maintenance"]
 population:
-  who: "software developers"
+  who: "A single open-source maintainer (Marak Squires, developer of the npm 'colors' and 'faker' libraries) used as an illustrative case; the article's implicit broader subject is unpaid maintainers of widely-depended-upon open-source software."
   where: []
-  when: null
+  when: "January 2022"
   n: null
-  sector: ["tech", "open-source", "healthcare"]
+  sector: ["open-source", "software-development"]
   sample_notes: >
-    Why Open-Source Developers Are Burning Out Open-source was supposed to be a barn-raising.
+    This corpus copy contains only the article's opening ~500 words (the 'colors' library
+    anecdote) before hitting a Medium members-only paywall; the rest of the file is site
+    navigation, author bio, and unrelated 'recommended' article links, not further article
+    content. No systematic sample — a single high-profile incident used illustratively, not
+    research data.
 limitation:
-  primary: "Non-peer-reviewed or journalistic source; useful for signals and practitioner framing but not causal evidence."
-  others: ["Sampling, measurement, and verification details are limited or not explicit in the markdown."]
+  primary: "Only the introductory anecdote of the article is present in this corpus copy; the full piece is behind Medium's paywall, so its main argument, evidence, and any additional examples are missing from this source file."
+  others:
+    - "Journalistic commentary, not peer-reviewed research, and even the visible portion rests on a single high-profile incident used illustratively."
+    - "The claim that Squires's actions were mental-health related is attributed only to unnamed 'observers', with no cited sources."
 risk_of_bias: "high"
 relevance_to_project: >
-  Useful for practitioner-facing context on open-source maintainer burnout, sustainability
-  pressures, recognition, documentation, and community support. Treat claims as signals
-  unless the source reports a clear empirical design.
+  Provides a vivid, widely-cited motivating case for the SNH project's maintainer-burnout
+  concern — sabotage of critical infrastructure as a visible failure mode of unsupported
+  unpaid open-source labor — useful for framing why-it-matters narratives, though the
+  fragment available here is too thin and unsourced to use as evidentiary support for any
+  specific claim.
 tags:
-  topic: ["burnout", "open-source", "collaboration"]
-  method: ["theory"]
-  population: ["software-developers", "tech", "open-source", "healthcare"]
+  topic: ["open-source", "maintainer-burnout", "burnout", "mental-health"]
+  method: ["case-study"]
+  population: ["open-source-maintainers"]
 source:
   markdown: "Papers_Data/Articles/MD/Why Open-Source Developers Are Burning Out/Why Open-Source Developers Are Burning Out.md"
-  pdf: null
-  notes: null
+  pdf: "papers/Articles/Why Open-Source Developers Are Burning Out.pdf"
+  notes: "no-doi: web article / no registered DOI found"

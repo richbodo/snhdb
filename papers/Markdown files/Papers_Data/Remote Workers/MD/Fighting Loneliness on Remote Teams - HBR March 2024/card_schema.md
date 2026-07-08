@@ -1,48 +1,59 @@
 id: "montanez-2024-fighting-loneliness-on-remote-teams"
 title: "Fighting Loneliness on Remote Teams"
-authors: ["Montañez, by Rachel"]
+authors:
+  - "Montañez, Rachel"
 year: 2024
 doi: null
-venue: {type: "journal", name: "Journal of Organizational Effectiveness", volume: null, issue: null, pages: null}
-citation: "Montañez (2024). Fighting Loneliness on Remote Teams. Journal of Organizational Effectiveness."
-article_type: "empirical"
-method: {design: "cross-sectional", approach: "survey", evidence_level: "weak", preregistered: false}
+venue: {type: "other", name: "Harvard Business Review", volume: null, issue: null, pages: null}
+citation: "Montañez (2024). Fighting Loneliness on Remote Teams. Harvard Business Review."
+article_type: "commentary"
+method: {design: "theory", approach: "other", evidence_level: "weak", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: Remote Work by Rachel Montañez March 22, 2024 Jimena
-  Roquero/Stocksy Summary.
+  This short Harvard Business Review piece argues that remote work's lack of in-person
+  community leaves some employees feeling isolated and lonely, and that this loneliness
+  translates into workplace stress and reduced job performance. It frames loneliness and
+  isolation as a broader public-health epidemic and cites a specific economic cost figure
+  for absenteeism tied to stress and loneliness among U.S. employers, positioning community-
+  building as the central remedy for remote and hybrid teams.
 claims:
-  - text: "Fighting Loneliness on Remote Teams Remote Work by Rachel Montañez March 22, 2024 Jimena Roquero/Stocksy Summary."
-    evidence: "cross-sectional"
+  - text: "Absenteeism attributed to stress and loneliness costs U.S. employers an estimated $154 billion annually, per a 2022 article in the Journal of Organizational Effectiveness: People and Performance cited by the author."
+    evidence: "theory"
     support_strength: "weak"
-    outcomes: ["performance", "loneliness", "isolation", "sense-of-belonging"]
-    predictors: ["remote-work-intensity", "loneliness", "sense-of-belonging", "community-engagement", "team-cohesion"]
-  - text: "Remote work offers many benefits, but the lack of community - compared to in-person environments - can cause some workers to feel isolated and lonely."
-    evidence: "cross-sectional"
+    outcomes: ["loneliness", "stress", "productivity"]
+    predictors: ["isolation", "loneliness"]
+  - text: "Remote work's reduced access to in-person community is described as a central driver of employee isolation and loneliness, which in turn is said to significantly impact job performance."
+    evidence: "theory"
     support_strength: "weak"
-    outcomes: ["performance", "loneliness", "isolation", "sense-of-belonging"]
-    predictors: ["remote-work-intensity", "loneliness", "sense-of-belonging", "community-engagement", "team-cohesion"]
+    outcomes: ["isolation", "loneliness", "performance"]
+    predictors: ["remote-work-intensity", "isolation"]
 population:
-  who: "employees/workers"
-  where: ["USA"]
-  when: null
+  who: "General remote-working employees; no original study sample, only aggregate/secondary workforce statistics referenced by the author"
+  where: ["United States"]
+  when: "2024 article citing a 2022 secondary statistic"
   n: null
-  sector: ["healthcare", "white-collar", "remote-workers"]
+  sector: ["general-workforce"]
   sample_notes: >
-    Remote work offers many benefits, but the lack of community - compared to in-person
-    environments - can cause some workers to feel isolated and lonely.
+    This is a short practitioner/magazine piece with no original data collection; the corpus
+    copy is a paywalled fragment (~1,800 characters, mostly the article's opening and a
+    summary teaser marked 'more'), so most of the full article's content and recommendations
+    are not captured here.
 limitation:
-  primary: "Cross-sectional and often self-report design limits causal inference."
-  others: ["Sampling and nonresponse constraints should be checked in the full source when using effect claims."]
-risk_of_bias: "medium"
+  primary: "The corpus copy is a paywalled stub containing only the article's introduction and summary teaser, not the full text, so its arguments and any recommendations cannot be fully evaluated."
+  others:
+    - "No original empirical research is presented; the piece relies on a single secondary statistic cited without methodological detail"
+    - "Journalistic/practitioner commentary, not peer-reviewed research"
+risk_of_bias: "high"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Useful as a practitioner-facing motivating statistic (the $154B absenteeism cost of
+  stress/loneliness) for framing remote-team loneliness as a costly organizational problem,
+  and as an example of how HBR frames community-building as the intervention lever for
+  remote-team isolation, though the corpus copy lacks the article's substantive
+  recommendations.
 tags:
-  topic: ["remote-work", "loneliness", "isolation", "productivity", "community-health", "collaboration"]
-  method: ["cross-sectional"]
-  population: ["employees-workers", "healthcare", "white-collar", "remote-workers"]
+  topic: ["remote-work", "loneliness", "isolation", "wellbeing", "community-health"]
+  method: ["secondary-data"]
+  population: ["remote-workers"]
 source:
   markdown: "Papers_Data/Remote Workers/MD/Fighting Loneliness on Remote Teams - HBR March 2024/Fighting Loneliness on Remote Teams - HBR March 2024.md"
-  pdf: null
-  notes: null
+  pdf: "papers/Remote Workers/Fighting Loneliness on Remote Teams - HBR March 2024.pdf"
+  notes: "no-doi: confirmed none (manual review)"

@@ -1,44 +1,62 @@
-id: "how-i-recognize-and-prevent-burnout-in-open-source"
+id: "anon-2021-how-i-recognize-and-prevent-burnout"
 title: "How I Recognize And Prevent Burnout In Open Source"
-authors: []
-year: null
+authors:
+year: 2021
 doi: null
-venue: {type: "conference", name: "Taking care of ourselves and others", volume: null, issue: null, pages: null}
-citation: "Unknown author (n.d.). How I Recognize And Prevent Burnout In Open Source. Taking care of ourselves and others."
-article_type: "empirical"
-method: {design: "longitudinal", approach: "other", evidence_level: "moderate", preregistered: false}
+venue: {type: "other", name: "Opensource.com (republished by aster.cloud)", volume: null, issue: null, pages: null}
+citation: "Opensource.com (republished by aster.cloud) (2021). How I Recognize And Prevent Burnout In Open Source. Opensource.com (republished by aster.cloud)."
+article_type: "commentary"
+method: {design: "case-study", approach: "other", evidence_level: "speculative", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for open-source maintainer wellbeing and
-  sustainability: Use a mantra to refocus: When my daughter was a baby, my morning routine
-  after breakfast was to play with her in the living room while waiting for our nanny.
+  A first-person practitioner essay in which the author describes his own early-warning
+  signs of burnout—dreading everyday tasks, withdrawing from social contact at work and at
+  home, and becoming irritable with family and friends—and the small preventive habits he
+  uses to counter it, such as mantras for presence, short social breaks, brief daily
+  exercise, and disciplined boundary-setting around vacation and family time. It closes by
+  urging readers, especially in remote work settings, to check on colleagues who seem
+  overwhelmed rather than let them suffer burnout alone.
 claims:
-  - text: "Read More How Geospatial Services Can Help Improve Financial Outcomes, Customer Experiences, And Operational Efficiency Taking care of ourselves and others I'm sure you have your own warning signs for burnout and tips for avoiding it, and I look forward to reading your ideas in the comments."
-    evidence: "longitudinal"
-    support_strength: "moderate"
-    outcomes: ["burnout", "wellbeing", "work-life-balance", "collaboration"]
-    predictors: ["remote-work-intensity", "hope", "social-support", "leadership-style", "open-source-maintenance", "community-engagement"]
+  - text: "The author identifies social withdrawal—avoiding contact with others in both work and non-work settings—and increased snappishness or conflict with family and friends as his own personal early-warning signs that burnout is approaching."
+    evidence: "case-study"
+    support_strength: "speculative"
+    outcomes: ["burnout", "isolation"]
+    predictors: ["isolation", "workload"]
+  - text: "He reports that regular small preventive practices—social lunches with friends/former colleagues, five to ten minutes of daily exercise, refocusing mantras, and explicit boundary-setting around vacation and family time—help him avoid reaching a burnout state, a practice he notes became harder to sustain once the pandemic disrupted in-person social breaks."
+    evidence: "case-study"
+    support_strength: "speculative"
+    outcomes: ["burnout", "work-life-balance"]
+    predictors: ["boundary-management", "social-support"]
+  - text: "The essay argues burnout has social spillover: when one person suffers, it affects the people around them, so coworkers should proactively check in on and follow up with overwhelmed colleagues, or alert their manager, rather than leaving them to cope alone—particularly in remote work environments."
+    evidence: "case-study"
+    support_strength: "speculative"
+    outcomes: ["burnout", "wellbeing"]
+    predictors: ["social-support", "peer-mentoring"]
 population:
-  who: "employees/workers"
+  who: "The author's own first-person experience; intended audience is open-source contributors and remote/tech workers generally, not a studied sample."
   where: []
-  when: null
+  when: "2021"
   n: null
-  sector: ["tech", "open-source", "education", "healthcare", "white-collar", "remote-workers"]
+  sector: ["open-source"]
   sample_notes: >
-    Take a short break: One of the things I like to do (at least until the pandemic made this
-    difficult) is to have lunch with local community members, friends, or former co-workers.
+    Purely anecdotal single-author narrative; no participants, sampling, or data
+    collection—this is a personal reflective essay, not a study.
 limitation:
-  primary: "The markdown did not expose an explicit limitation section; interpret claims according to method and source type."
-  others: ["Use this card as an index and verify fine-grained methodological caveats in the source text."]
-risk_of_bias: "medium"
+  primary: "Entirely anecdotal, first-person opinion piece with no systematic data, sample, or evidence beyond the author's own recollected experience."
+  others:
+    - "No citation of research literature; the recommended strategies are personal habits rather than tested interventions."
+    - "This conversion appears to be missing its opening section (replaced by extracted images), so some introductory context is unavailable."
+risk_of_bias: "not-applicable"
 relevance_to_project: >
-  Useful for practitioner-facing context on open-source maintainer burnout, sustainability
-  pressures, recognition, documentation, and community support. Treat claims as signals
-  unless the source reports a clear empirical design.
+  Provides a practitioner-level account of self-recognized burnout warning signs (social
+  withdrawal, friction with family/friends) and lightweight prevention tactics (short
+  breaks, exercise, boundary-setting) that can inform design of maintainer/remote-worker
+  burnout early-warning prompts and peer check-in features, and reinforces the project's
+  emphasis on proactive social support in remote settings.
 tags:
-  topic: ["remote-work", "burnout", "wellbeing", "work-life-balance", "open-source", "collaboration"]
-  method: ["longitudinal"]
-  population: ["employees-workers", "tech", "open-source", "education", "healthcare", "white-collar"]
+  topic: ["burnout", "open-source", "remote-work", "wellbeing", "work-life-balance"]
+  method: ["case-study"]
+  population: ["open-source-contributors", "remote-workers"]
 source:
   markdown: "Papers_Data/Articles/MD/How I Recognize And Prevent Burnout In Open Source/How I Recognize And Prevent Burnout In Open Source.md"
-  pdf: null
-  notes: null
+  pdf: "papers/Articles/How I Recognize And Prevent Burnout In Open Source.pdf"
+  notes: "no-doi: confirmed none (manual review)"

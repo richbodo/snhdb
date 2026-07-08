@@ -1,56 +1,72 @@
-id: "10.1287/orsc.1110.0703"
+id: "ferguson-2024-team-and-communication-impacts-of-remote"
 title: "Team and communication impacts of remote work for complex aerospace system development"
-authors: []
-year: 2023
-doi: "10.1287/orsc.1110.0703"
-venue: {type: "journal", name: "REGULAR ARTICLE", volume: null, issue: null, pages: null}
-citation: "Unknown author (2023). Team and communication impacts of remote work for complex aerospace system development. REGULAR ARTICLE."
+authors:
+  - "Ferguson, Sharon"
+  - "van Velzen, Eric"
+  - "Olechowski, Alison"
+year: 2024
+doi: "10.1002/sys.21716"
+venue: {type: "journal", name: "Systems Engineering", volume: 27, issue: 1, pages: "199-213"}
+citation: "Ferguson et al. (2024). Team and communication impacts of remote work for complex aerospace system development. Systems Engineering, 27(1), 199-213. https://doi.org/10.1002/sys.21716"
 article_type: "empirical"
-method: {design: "qualitative", approach: "interview", evidence_level: "weak", preregistered: false}
+method: {design: "qualitative", approach: "interview", evidence_level: "low", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: We ground our findings in six characteristics of CASD work
-  (complex systems; design paths and feedback loops; relationships with suppliers, customers
-  and regulators; distinct knowledge and skills; one-off innovation; and high cost of
-  experimentation) and discuss how each of these characteristics challenges remote work.
+  Semi-structured interviews with 12 remote-working engineers at a single aerospace
+  corporation found that the tightly coupled, complex nature of Complex Aerospace System
+  Development (CASD) work made remote work especially disruptive to informal communication,
+  design feedback speed, supplier/customer hardware demonstrations, interpersonal
+  relationship maintenance, conceptual design work, and hardware testing coordination. The
+  near-total loss of unplanned 'watercooler' communication was identified as the central
+  driver of downstream harms to trust, onboarding, and collaboration in tightly coupled
+  teams, while a previously geographically-distributed team saw improved cohesion from full
+  remote adoption of Slack/Zoom.
 claims:
-  - text: "We ground our findings in six characteristics of CASD work (complex systems; design paths and feedback loops; relationships with suppliers, customers and regulators; distinct knowledge and skills; one-off innovation; and high cost of experimentation) and discuss how each of these characteristics challenges..."
+  - text: "Participants reported that informal, unplanned communication ('watercooler' conversations) almost disappeared during remote work, and this loss was described as the primary driver of slower design feedback, weaker onboarding/tacit-knowledge transfer for new hires, and reduced awareness of other teams' work."
     evidence: "qualitative"
-    support_strength: "weak"
-    outcomes: ["collaboration"]
-    predictors: ["remote-work-intensity", "social-support", "team-cohesion"]
-  - text: "CASD requires many teams to work together, and this is encouraged through informal communication, which almost disappears in a remote setting."
+    support_strength: "low"
+    outcomes: ["collaboration", "communication"]
+    predictors: ["team-cohesion", "remote-work-intensity"]
+  - text: "All participants reported negative impacts of remote work on teamwork and interpersonal relationships (loss of socialization opportunities, cameras-off norms during calls, harder onboarding of new hires), though one team that was already geographically distributed pre-pandemic reported improved team dynamics after full remote adoption of Slack and Zoom."
     evidence: "qualitative"
-    support_strength: "weak"
-    outcomes: ["collaboration"]
-    predictors: ["remote-work-intensity", "social-support", "team-cohesion"]
-  - text: "CASD requires frequent feedback, and we found that feedback was slow when working remotely."
+    support_strength: "low"
+    outcomes: ["sense-of-belonging", "collaboration"]
+    predictors: ["team-cohesion", "remote-work-intensity"]
+  - text: "10 of 12 participants wanted to continue some form of remote work going forward (typically a hybrid of 2-3 in-office days), despite reporting substantial communication and relationship-maintenance challenges specific to tightly coupled, hardware-dependent aerospace engineering work (e.g., verifying supplier drawings, demonstrating hardware to customers, conceptual whiteboard-style design)."
     evidence: "qualitative"
-    support_strength: "weak"
-    outcomes: ["collaboration"]
-    predictors: ["remote-work-intensity", "social-support", "team-cohesion"]
+    support_strength: "low"
+    outcomes: ["job-satisfaction", "communication"]
+    predictors: ["remote-work-intensity", "network-structure"]
 population:
-  who: "employees/workers"
-  where: ["Canada"]
-  when: "COVID-19 pandemic"
-  n: null
-  sector: ["tech", "education", "healthcare", "white-collar", "remote-workers"]
+  who: "12 engineers (Mechanical, Electrical, Aerospace, Systems Engineering; 8 men, 4 women; mix of junior to senior) working remotely at one major aerospace corporation on Complex Aerospace System Development projects"
+  where: []
+  when: "interviews conducted 7-11 months into a COVID-19-driven remote work period (single organization, region unspecified)"
+  n: 12
+  sector: ["aerospace-engineering", "remote-work"]
   sample_notes: >
-    Participants found it challenging to demonstrate systems to customers and verify drawings
-    with suppliers, and the interpersonal relationships, which help to bridge disciplinary
-    divides, were harder to maintain remotely.
+    Single-organization, single-industry convenience sample; 10 of 12 participants
+    recommended by their department manager (with instructions to vary seniority, gender,
+    prior remote-work experience), 2 more snowball-selected; women comprised only one-third
+    of the sample, which the authors flag as a representativeness limitation; no response-
+    rate data given since selection was manager-nominated rather than open recruitment.
 limitation:
-  primary: "Due to this limitation, the company had to change the quality clause in their contracts and resorted to using photos of the hardware for inspection."
-  others: ["However, photos were not as effective as an in-person inspection, and as a result, there have been \"big glaring errors that would not have made it through the chain if we were allowed to be on-site and inspect properly.\" Participants also...", "In the past, customers could visit the company site to inspect hardware and watch a live demonstration."]
+  primary: "Exploratory qualitative design with a small (n=12), single-company, single-industry sample limits generalizability; the authors explicitly note women's perspectives may be underrepresented and that company-specific effects cannot be separated from CASD-specific effects."
+  others:
+    - "Study focused on challenges of remote work rather than benefits, likely skewing findings toward negative impacts."
+    - "Interviews captured only near-term (7-11 month) effects after participants had already adapted routines; longer-term effects of sustained remote work were not observed."
+    - "Relies on retrospective self-report, memory, and salience rather than objective performance measures."
 risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Provides a detailed, mechanism-level account of how loss of informal/unplanned
+  communication in remote work degrades trust, shared understanding, onboarding, and cross-
+  team collaboration in tightly coupled work -- directly informing SNH's interest in which
+  forms of casual/ambient interaction (not just scheduled meetings) most need to be
+  preserved or redesigned for remote and hybrid teams, including via chosen communication
+  platforms and 'virtual watercooler' interventions.
 tags:
-  topic: ["remote-work", "collaboration"]
-  method: ["qualitative", "theory"]
-  population: ["employees-workers", "tech", "education", "healthcare", "white-collar", "remote-workers"]
+  topic: ["remote-work", "collaboration", "social-presence", "wellbeing"]
+  method: ["qualitative", "interview"]
+  population: ["aerospace-engineering", "remote-work"]
 source:
   markdown: "Papers_Data/Remote Workers/MD/Systems Engineering - 2023 - Ferguson - Team and communication impacts of remote work for complex aerospace system/Systems Engineering - 2023 - Ferguson - Team and communication impacts of remote work for complex aerospace system.md"
-  pdf: null
+  pdf: "papers/Remote Workers/Systems Engineering - 2023 - Ferguson - Team and communication impacts of remote work for complex aerospace system.pdf"
   notes: null

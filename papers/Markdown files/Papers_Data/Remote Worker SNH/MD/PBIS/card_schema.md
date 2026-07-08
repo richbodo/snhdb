@@ -1,57 +1,69 @@
-id: "10.1177/001440291207900103"
-title: "PBIS Reduces the Use of and Inequities in the Use of Exclusionary Discipline"
-authors: []
-year: 2023
-doi: "10.1177/001440291207900103"
-venue: {type: "journal", name: "IS POSITIVE BEHAVIORAL INTERVENTIONS AND SUPPORTS (PBIS) AN EVIDENCE-BASED PRACTICE?", volume: null, issue: null, pages: null}
-citation: "Unknown author (2023). PBIS Reduces the Use of and Inequities in the Use of Exclusionary Discipline. IS POSITIVE BEHAVIORAL INTERVENTIONS AND SUPPORTS (PBIS) AN EVIDENCE-BASED PRACTICE?."
+id: "anon-2014-pbis"
+title: "PBIS"
+authors:
+year: 2014
+doi: "10.4135/9781483346243.n240"
+venue: {type: "other", name: "The SAGE Encyclopedia of Classroom Management", volume: null, issue: null, pages: null}
+citation: "The SAGE Encyclopedia of Classroom Management (2014). PBIS. The SAGE Encyclopedia of Classroom Management. https://doi.org/10.4135/9781483346243.n240"
 article_type: "review"
-method: {design: "review-scoping", approach: "secondary-data", evidence_level: "moderate", preregistered: false}
+method: {design: "review-systematic", approach: "secondary-data", evidence_level: "moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for SNH remote-worker social connection,
-  workplace isolation, remote collaboration, sampling, and prevention design: This brief
-  presents the findings of a systematic literature review exploring how Tier 1 PBIS
-  implementation affects valued educational outcomes.
+  This Center on PBIS evidence brief synthesizes a systematic literature review of studies
+  (RCTs, quasi-experimental, single-case, and meta-analyses) on Tier 1 School-wide Positive
+  Behavioral Interventions and Supports (PBIS) in K-12 schools. It concludes PBIS is an
+  evidence-based practice for reducing exclusionary discipline and inequities in its use,
+  and for improving students' social, emotional, and behavioral outcomes, while effects on
+  academics and attendance are more mixed. It also reports improvements in school climate,
+  staff affiliation, and teacher self-efficacy when PBIS is implemented with fidelity.
 claims:
-  - text: "This brief presents the findings of a systematic literature review exploring how Tier 1 PBIS implementation affects valued educational outcomes."
-    evidence: "review-scoping"
+  - text: "Across many RCTs and quasi-experimental studies in elementary, middle, and high schools, Tier 1 PBIS implementation consistently reduced office discipline referrals, suspensions, expulsions, and days of school missed, including reduced racial disparities in discipline for Black students and reduced disproportionality for students with disabilities."
+    evidence: "review-systematic"
     support_strength: "moderate"
-    outcomes: ["mental-health"]
-    predictors: ["inclusiveness", "social-support"]
-  - text: "Findings demonstrate that PBIS can be designated an evidence-based practice for reducing exclusionary discipline and improving social, emotional, and behavioral outcomes."
-    evidence: "review-scoping"
+    outcomes: ["exclusionary-discipline"]
+    predictors: ["intervention", "organizational-culture"]
+  - text: "PBIS implementation was associated with improved prosocial skills, emotional regulation, and on-task behavior, and reduced aggressive/disruptive behavior; schools combining PBIS with social-emotional learning (SEL) showed the greatest reduction in externalizing behavior problems and mental health improvement (Cook et al., 2015), while a randomized effectiveness trial found reduced bullying and peer rejection over time (Waasdorp et al., 2012)."
+    evidence: "review-systematic"
     support_strength: "moderate"
-    outcomes: ["mental-health"]
-    predictors: ["inclusiveness", "social-support"]
-  - text: "Policymakers, practitioners, students, and families have an interest in implementing and supporting practices that are most likely to improve valued outcomes for each and every student."
-    evidence: "review-scoping"
+    outcomes: ["mental-health", "wellbeing"]
+    predictors: ["intervention"]
+  - text: "Fidelity of PBIS implementation was linked to more positive school climate, warmer staff affiliation, greater teacher self-efficacy and improved classroom management practices, and safer school perceptions, with the largest gains reported by staff in schools that started with the lowest baseline climate ratings (Bradshaw et al., 2008, 2009)."
+    evidence: "review-systematic"
     support_strength: "moderate"
-    outcomes: ["mental-health"]
-    predictors: ["inclusiveness", "social-support"]
+    outcomes: ["job-satisfaction", "sense-of-belonging"]
+    predictors: ["organizational-culture", "psychological-safety", "intervention"]
 population:
-  who: "students/adolescents"
-  where: ["USA", "Canada", "Australia", "Germany", "Norway", "France", "Japan"]
+  who: "K-12 students, teachers, and school staff in schools implementing Tier 1 (and some Tier 2/3) PBIS, drawn from the included studies (elementary, middle/high schools, alternative and juvenile-justice settings, and early childhood/Head Start programs)"
+  where: ["United States", "Australia", "Canada", "France", "Germany", "Japan", "Norway", "Taiwan"]
   when: null
   n: null
-  sector: ["tech", "open-source", "education", "healthcare"]
+  sector: ["education"]
   sample_notes: >
-    Authors María Reina Santiago-Rosario Kent McIntosh Sara Izzard Dana Cohen Lissman Flyse
-    Calhoun Purpose ositive Behavioral Interventions and Supports (PBIS) is a widely
-    implemented framework for promoting positive school systems and fostering students' social,
-    emotional, behavioral, and mental health.
+    This is a narrative evidence brief summarizing a larger systematic literature review; it
+    is not a comprehensive report of all PBIS research and does not report a PRISMA-style
+    search/inclusion flow, pooled sample sizes, or a formal risk-of-bias assessment of
+    individual studies. Individual cited studies range from single-case and case studies to
+    statewide quasi-experimental analyses and group-randomized effectiveness trials.
 limitation:
-  primary: "Review conclusions depend on search scope, inclusion criteria, and quality of included studies."
-  others: ["Heterogeneity across source studies may limit direct transfer to the SNH setting."]
-risk_of_bias: "medium"
+  primary: "Published by the Center on PBIS, the organization that develops and promotes PBIS, so the brief functions partly as advocacy summary rather than an independent systematic review, with no disclosed search strategy, inclusion flow, or formal risk-of-bias/quality appraisal of the cited studies."
+  others:
+    - "No effect sizes, confidence intervals, or meta-analytic pooling are reported; findings are described narratively as directional ('reduced', 'improved') across a large, heterogeneous set of studies."
+    - "Academic achievement and attendance findings are explicitly mixed/inconsistent across studies, undercutting a uniform 'PBIS works' narrative for those outcomes."
+    - "The brief states it is 'a summary and not a comprehensive report of all PBIS research findings,' indicating selective citation of supportive studies."
+risk_of_bias: "high"
 relevance_to_project: >
-  Useful for the SNH remote-worker evidence stream because it indexes social connection,
-  workplace isolation, loneliness, remote collaboration, sampling, and upstream prevention
-  mechanisms.
+  PBIS is a K-12 school discipline framework, not a workplace or open-source study, but its
+  Tier 1/2/3 universal-selective-indicated design (a low-intensity, system-wide intervention
+  that improves climate and reduces need for intensive individual support) is a useful
+  structural analog for designing tiered SNH interventions in remote-work or maintainer
+  communities, where universal culture/climate-level supports might reduce reliance on
+  individual crisis-level interventions. It also illustrates how a research-based practice's
+  own promotional summaries can overstate evidence certainty, a caution relevant when the
+  project evaluates intervention evidence for its own toolkit claims.
 tags:
-  topic: ["mental-health", "open-source"]
-  method: ["review-scoping", "rct", "case-study"]
-  population: ["students-adolescents", "tech", "open-source", "education", "healthcare"]
+  topic: ["community-health", "wellbeing", "mental-health", "methodology"]
+  method: ["review-systematic", "secondary-data"]
+  population: ["k-12-education", "school-staff"]
 source:
   markdown: "Papers_Data/Remote Worker SNH/MD/PBIS/PBIS.md"
-  pdf: null
+  pdf: "papers/Remote Worker SNH/PBIS.pdf"
   notes: null

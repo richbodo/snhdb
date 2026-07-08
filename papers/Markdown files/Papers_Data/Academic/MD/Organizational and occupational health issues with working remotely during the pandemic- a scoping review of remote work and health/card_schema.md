@@ -1,56 +1,72 @@
-id: "10.1093/joccuh/uiae005"
+id: "lyzwinski-2024-organizational-and-occupational-health-issues-with"
 title: "Organizational and occupational health issues with working remotely during the pandemic: a scoping review of remote work and health"
-authors: ["Lyzwinski, Lynnette-Natalia"]
+authors:
+  - "Lyzwinski, Lynnette-Natalia"
 year: 2024
 doi: "10.1093/joccuh/uiae005"
-venue: {type: "journal", name: "What is already known about the topic", volume: null, issue: null, pages: null}
-citation: "Lyzwinski (2024). Organizational and occupational health issues with working remotely during the pandemic: a scoping review of remote work and health. What is already known about the topic."
+venue: {type: "journal", name: "Journal of Occupational Health", volume: 66, issue: 1, pages: null}
+citation: "Lyzwinski (2024). Organizational and occupational health issues with working remotely during the pandemic: a scoping review of remote work and health. Journal of Occupational Health, 66(1). https://doi.org/10.1093/joccuh/uiae005"
 article_type: "review"
-method: {design: "review-systematic", approach: "secondary-data", evidence_level: "strong", preregistered: false}
+method: {design: "review-scoping", approach: "secondary-data", evidence_level: "moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote work, developer wellbeing, and
-  community-health theory: The review focused on white-collar workers who undertook remote
-  work during each of the lockdown waves from March 2020 to 2021.
+  A PubMed/Google Scholar scoping review of 62 studies (spanning Europe, North America,
+  South America, Asia, and the Asia-Pacific) on white-collar remote work during the first
+  two years of the COVID-19 pandemic finds that social isolation and loneliness were the
+  most consistently reported barriers to remote-worker wellbeing, and that co-worker and
+  managerial social support, along with non-toxic leadership styles, buffered against these
+  harms. Effects on productivity, job satisfaction, and work-life balance were mixed across
+  studies and depended heavily on gender, childcare responsibilities, home-office adequacy,
+  and leadership behavior, with women and parents (especially mothers) disproportionately
+  disadvantaged.
 claims:
-  - text: "Little is presently known about the benefits and the challenges associated with global remote work on well-being and mental health, work-life balance, job satisfaction, productivity, home office adaptability, and gender equality."
-    evidence: "review-systematic"
-    support_strength: "strong"
-    outcomes: ["wellbeing", "mental-health", "depression", "anxiety", "job-satisfaction", "productivity"]
-    predictors: ["remote-work-intensity", "loneliness", "social-support", "leadership-style", "workload"]
-  - text: "Methods: A scoping review of PubMed/Medline was undertaken in October 2021 to better understand these broad dimensions associated with remote worker health, well-being, and the home office workspace."
-    evidence: "review-systematic"
-    support_strength: "strong"
-    outcomes: ["wellbeing", "mental-health", "depression", "anxiety", "job-satisfaction", "productivity"]
-    predictors: ["remote-work-intensity", "loneliness", "social-support", "leadership-style", "workload"]
-  - text: "The main setbacks associated with remote work included feelings of isolation and loneliness, which negatively inf luenced well-being."
-    evidence: "review-systematic"
-    support_strength: "strong"
-    outcomes: ["wellbeing", "mental-health", "depression", "anxiety", "job-satisfaction", "productivity"]
-    predictors: ["remote-work-intensity", "loneliness", "social-support", "leadership-style", "workload"]
+  - text: "Level of social support was strongly linked to remote-worker isolation and loneliness: one included study found remote workers with low co-worker support were roughly 4 times more likely to report feelings of isolation than those with high co-worker support, and workers with low managerial support were 2.5 times more likely to report loneliness than those with high managerial support (Miyake et al., cited in the review)."
+    evidence: "review-scoping"
+    support_strength: "low-to-moderate"
+    outcomes: ["isolation", "loneliness", "wellbeing"]
+    predictors: ["social-support", "leadership-style"]
+  - text: "Women reported higher stress and lower wellbeing than men across multiple included studies, and this gap widened with childcare load; one Australian study found a 63% productivity reduction among women with children versus a 32% reduction among men without children, and several studies linked unequal division of household/childcare labor to women's lower remote-work wellbeing and productivity."
+    evidence: "review-scoping"
+    support_strength: "low-to-moderate"
+    outcomes: ["wellbeing", "stress", "productivity"]
+    predictors: ["workload", "boundary-management"]
+  - text: "Leadership style moderated remote-worker mental health: intrusive/toxic leadership was associated with increased depression, anxiety, reduced happiness, and workaholism in included studies, whereas participative and identity leadership were positively associated with job satisfaction and negatively associated with workplace loneliness."
+    evidence: "review-scoping"
+    support_strength: "low-to-moderate"
+    outcomes: ["mental-health", "job-satisfaction", "loneliness"]
+    predictors: ["leadership-style"]
 population:
-  who: "remote workers"
-  where: ["Canada", "Italy", "China", "Sweden", "Spain", "Iran", "Turkey"]
-  when: "from March 2020 to 2021"
-  n: 3
-  sector: ["tech", "open-source", "education", "healthcare", "white-collar", "remote-workers"]
+  who: "62 empirical studies of white-collar/office-type remote workers (e.g., managers, admin staff, researchers, academics, teachers, healthcare and public-sector employees) working from home during COVID-19 lockdowns; most included studies used cross-sectional self-report surveys."
+  where: ["Europe", "North America", "South America", "Asia", "Asia-Pacific"]
+  when: "Data collected March 2020 to 2021; search conducted October 2021"
+  n: null
+  sector: ["office-white-collar", "public-sector", "education", "healthcare", "academia"]
   sample_notes: >
-    Organizational and occupational health issues with working remotely during the pandemic: a
-    scoping review of remote work and health Background: Stay-at-home orders during the
-    COVID-19 global pandemic created unprecedented challenges for workers whose work was
-    transferred to the home setting.
+    Aggregates 62 heterogeneous studies (mostly cross-sectional, some longitudinal/diary
+    designs) identified via a PubMed/Medline and Google Scholar scoping search plus manual
+    reference searches; restricted to English-language studies (or
+    French/German/Polish/Italian) on white-collar workers 18+, excluding intervention
+    studies and studies not assessing wellbeing/stress/satisfaction; no formal quality/risk-
+    of-bias appraisal of included studies as is typical for scoping reviews.
 limitation:
-  primary: "Review conclusions depend on search scope, inclusion criteria, and quality of included studies."
-  others: ["Heterogeneity across source studies may limit direct transfer to the SNH setting."]
-risk_of_bias: "low"
+  primary: "As a scoping review, it did not formally appraise the methodological quality or risk of bias of the 62 included studies, most of which relied on cross-sectional self-report measures that limit causal inference and are open to self-report/recall bias."
+  others:
+    - "Search restricted largely to PubMed/Medline and English-language (plus a few European-language) literature, likely missing non-Western and non-English evidence."
+    - "Included studies used highly heterogeneous, non-standardized measures of wellbeing, productivity, and isolation, limiting direct comparability or pooled synthesis."
+    - "Review authors note gaps in evidence on age, ethnicity, socioeconomic status, disability, and domestic-violence risk among remote workers, which were rarely examined in the underlying studies."
+risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for anchoring SNH theory-building in peer-reviewed or thesis-level evidence about
-  remote work, developer burnout, workplace stress, and community health. Treat the card as a
-  retrieval unit for model paths, measures, and caveats.
+  This review is a strong evidence map for SNH design priorities: it identifies co-worker
+  and managerial social support as the primary quantified buffer against remote-work
+  isolation and loneliness (with concrete odds/likelihood ratios), and flags leadership
+  style, gender, and childcare access as key moderators of remote-worker wellbeing and
+  turnover-relevant outcomes — directly informing which interventions (peer support
+  structures, leadership training, family-friendly policy) an SNH toolkit should prioritize
+  and evaluate.
 tags:
-  topic: ["remote-work", "mental-health", "loneliness", "isolation", "wellbeing", "work-life-balance", "job-satisfaction", "productivity", "open-source", "social-support"]
-  method: ["review-systematic", "systematic-review", "scoping-review"]
-  population: ["tech", "open-source", "education", "healthcare", "white-collar", "remote-workers"]
+  topic: ["remote-work", "isolation", "loneliness", "social-support", "wellbeing", "burnout"]
+  method: ["review-scoping"]
+  population: ["remote-workers", "white-collar", "parents-caregivers", "women"]
 source:
   markdown: "Papers_Data/Academic/MD/Organizational and occupational health issues with working remotely during the pandemic- a scoping review of remote work and health/Organizational and occupational health issues with working remotely during the pandemic- a scoping review of remote work and health.md"
-  pdf: null
+  pdf: "papers/Academic/Organizational and occupational health issues with working remotely during the pandemic- a scoping review of remote work and health.pdf"
   notes: null

@@ -1,49 +1,69 @@
-id: "10.24840/2183-0606"
+id: "dubey-2020-analysing-the-sentiments-towards-work-from"
 title: "Analysing the Sentiments towards Work-From-Home Experience during COVID-19 Pandemic"
-authors: ["Jaipur", "Rajasthan", "Tripathi, India Shreya"]
+authors:
+  - "Dubey, Akash Dutt"
+  - "Tripathi, Shreya"
 year: 2020
-doi: "10.24840/2183-0606"
-venue: {type: "journal", name: "Akash D Dubey", volume: 8, issue: 1, pages: "13-19"}
-citation: "Jaipur et al. (2020). Analysing the Sentiments towards Work-From-Home Experience during COVID-19 Pandemic. Akash D Dubey."
+doi: "10.24840/2183-0606_008.001_0003"
+venue: {type: "journal", name: "Journal of Innovation Management", volume: 8, issue: 1, pages: null}
+citation: "Dubey et al. (2020). Analysing the Sentiments towards Work-From-Home Experience during COVID-19 Pandemic. Journal of Innovation Management, 8(1). https://doi.org/10.24840/2183-0606_008.001_0003"
 article_type: "empirical"
-method: {design: "cross-sectional", approach: "survey", evidence_level: "weak", preregistered: false}
+method: {design: "cross-sectional", approach: "secondary-data", evidence_level: "weak", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: Since no specific treatment has been suggested by any medical
-  institution so far, World Health Organization has recommended that the only possible
-  solution to be safe is to self-isolate and stay home.
+  This study performed sentiment analysis on 100,000 English-language tweets containing
+  #WorkFromHome or #WFH, collected between 15 March and 15 April 2020 during the early
+  COVID-19 lockdowns. Using the NRC Emotion Lexicon and Syuzhet package, the authors found
+  tweets skewed strongly positive (73.10% positive vs 26.10% negative) and were dominated by
+  trust, anticipation, and joy rather than fear or sadness, suggesting a broadly welcoming
+  public reaction to the sudden shift to remote work. It offers an early, descriptive
+  snapshot of collective sentiment toward WFH rather than any individual-level or causal
+  account of remote worker wellbeing.
 claims:
-  - text: "The emotions associated with most of the tweets were of trust and anticipation indicating that this concept is being welcomed by the people."
+  - text: "Of 100,000 tweets about work-from-home collected 15 March-15 April 2020, 73.10% carried positive sentiment versus 26.10% negative sentiment."
     evidence: "cross-sectional"
     support_strength: "weak"
-    outcomes: ["isolation"]
-    predictors: ["remote-work-intensity", "hope"]
-  - text: "While there were 86,604 patients of COVID-19 on 28th February and 858,361 on 31st March, the number has increased to 2,086,477 on 15th April 2020."
+    outcomes: ["wellbeing", "job-satisfaction"]
+    predictors: ["remote-work-intensity"]
+  - text: "The most common emotions expressed in WFH-related tweets were trust (24.03%), anticipation, and joy (16.45%), while fear (10.17%), sadness (8.60%), anger (6.69%) and disgust (4.32%) were comparatively rare."
     evidence: "cross-sectional"
     support_strength: "weak"
-    outcomes: ["isolation"]
-    predictors: ["remote-work-intensity", "hope"]
+    outcomes: ["wellbeing", "stress"]
+    predictors: ["remote-work-intensity"]
+  - text: "Word-cloud analysis showed positive-emotion words (GOOD, BREAK, HOPE, LOVE, SHARE, HAPPY, SAFE, HOME, TEAM, MANAGE) dominated the discourse, while negative words like PANDEMIC, ISOLATE, and LATE clustered specifically around sadness."
+    evidence: "cross-sectional"
+    support_strength: "weak"
+    outcomes: ["isolation", "wellbeing"]
+    predictors: ["remote-work-intensity"]
 population:
-  who: "employees/workers"
-  where: ["USA", "UK", "Italy", "China", "India", "New Zealand", "France"]
-  when: "COVID-19 Pandemic"
-  n: null
-  sector: ["tech", "open-source", "education", "healthcare", "white-collar", "remote-workers"]
+  who: "100,000 English-language Twitter/X posts mentioning #WorkFromHome or #WFH, worldwide (not individual workers directly surveyed)"
+  where: []
+  when: "15 March 2020 - 15 April 2020"
+  n: 100000
+  sector: ["cross-sector"]
   sample_notes: >
-    To implement WFH concept, several technical platforms are being used to make sure that the
-    efficiency of the employees remain intact.
+    Convenience sample of public tweets gathered via Twitter API using RTweet in R; retweets
+    excluded to avoid duplication; restricted to English-language tweets only (acknowledged
+    by authors as a limitation), so not representative of the global remote-workforce
+    population, and tweet authorship/employment status is unverified.
 limitation:
-  primary: "Cross-sectional and often self-report design limits causal inference."
-  others: ["Sampling and nonresponse constraints should be checked in the full source when using effect claims."]
-risk_of_bias: "medium"
+  primary: "The sample is limited to English-language tweets, which the authors themselves flag as a limitation that skews the sample toward English-speaking, Twitter-using populations and excludes non-English and non-Twitter-using workers globally."
+  others:
+    - "Sentiment/emotion classification via lexicon-based tools (NRC Emotion Lexicon, Syuzhet) is a coarse proxy for actual worker wellbeing and can misclassify sarcasm, context, or mixed sentiment."
+    - "No demographic, occupational, or employment-status data on tweet authors, so findings cannot be linked to specific worker subgroups or work-from-home conditions."
+    - "Short one-month observation window during the acute, novel phase of pandemic lockdowns limits generalizability to sustained or later-stage remote work experiences."
+risk_of_bias: "high"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Provides an early, large-N but low-precision signal that public sentiment toward the
+  transition to remote work was net positive during the initial COVID-19 lockdown, which is
+  useful as a contextual/historical data point but should not be treated as evidence about
+  individual-level isolation, loneliness, or burnout risk in remote workers -- its lexicon-
+  based sentiment scoring cannot substitute for validated wellbeing or social-support
+  measures the SNH project would need.
 tags:
-  topic: ["remote-work", "isolation", "open-source"]
-  method: ["cross-sectional"]
-  population: ["employees-workers", "tech", "open-source", "education", "healthcare", "white-collar"]
+  topic: ["remote-work", "wellbeing", "methodology"]
+  method: ["cross-sectional", "secondary-data"]
+  population: ["general-public", "social-media-users"]
 source:
   markdown: "Papers_Data/Remote Workers/01 Extended - Remote Workers/MD/Analysing the Sentiments towards Work-From-Home  Experience during COVID-19 Pandemic/Analysing the Sentiments towards Work-From-Home  Experience during COVID-19 Pandemic.md"
-  pdf: null
+  pdf: "papers/Remote Workers/01 Extended - Remote Workers/Analysing the Sentiments towards Work-From-Home  Experience during COVID-19 Pandemic.pdf"
   notes: null

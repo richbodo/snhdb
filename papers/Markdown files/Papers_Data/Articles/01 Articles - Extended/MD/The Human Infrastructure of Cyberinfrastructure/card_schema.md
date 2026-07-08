@@ -1,56 +1,70 @@
-id: "2006-the-human-infrastructure-of-cyberinfrastructure"
-title: "The Human Infrastructure of Cyberinfrastructure"
-authors: []
+id: "lee-2006-the-human-infrastructure-of-cyberinfrastructure"
+title: "The human infrastructure of cyberinfrastructure"
+authors:
+  - "Lee, Charlotte P."
+  - "Dourish, Paul"
+  - "Mark, Gloria"
 year: 2006
-doi: null
-venue: {type: "conference", name: "Categories and Subject Descriptors", volume: null, issue: null, pages: null}
-citation: "Unknown author (2006). The Human Infrastructure of Cyberinfrastructure. Categories and Subject Descriptors."
+doi: "10.1145/1180875.1180950"
+venue: {type: "conference", name: "Proceedings of the 2006 20th anniversary conference on Computer supported cooperative work", volume: null, issue: null, pages: "483-492"}
+citation: "Lee et al. (2006). The human infrastructure of cyberinfrastructure. Proceedings of the 2006 20th anniversary conference on Computer supported cooperative work, 483-492. https://doi.org/10.1145/1180875.1180950"
 article_type: "empirical"
-method: {design: "qualitative", approach: "other", evidence_level: "weak", preregistered: false}
+method: {design: "case-study", approach: "ethnography", evidence_level: "low-to-moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for open-source maintainer wellbeing and
-  sustainability: Our data calls into question a focus on distributed teams as the means for
-  accomplishing distributed work and we argue for using human infrastructure as an
-  alternative perspective for understanding how distributed collaboration is accomplished in
-  big science.
+  Based on an 18-month ethnography and 20 in-depth interviews within FBIRN, a 13-institution
+  NIH-funded biomedical cyberinfrastructure consortium, the paper introduces 'human
+  infrastructure' to argue that large-scale distributed scientific collaboration is
+  accomplished through overlapping, fuzzy-bordered working groups, traditional site-based
+  labs, and personal networks-not through clean 'distributed teams.' It finds that ambiguous
+  group membership is pervasive yet does not prevent the collaboration from functioning,
+  challenging team-centric accounts of distributed work.
 claims:
-  - text: "The second is the rise of interdisciplinarity as a significant mode of scientific practice, which is related in part to this same transition from small science to big science but is also strongly associated with changes in funding for science and the sites and contexts of knowledge production [13]."
-    evidence: "qualitative"
-    support_strength: "weak"
-    outcomes: ["collaboration"]
-    predictors: ["organizational-culture", "social-support", "team-cohesion"]
-  - text: "Previous work on gathering user requirements for cyberinfrastructure [8] has shown that differences in professional cultures increased the chances for misunderstanding and mistrust (e.g. differences in design processes leading to different conceptions over the appropriate level of requirement specificity)."
-    evidence: "qualitative"
-    support_strength: "weak"
-    outcomes: ["collaboration"]
-    predictors: ["organizational-culture", "social-support", "team-cohesion"]
-  - text: "Related research on comparatively small multi-university collaborations found that multi-university projects are even less coordinated and more problematic than multi-disciplinary collaboration [6]."
-    evidence: "qualitative"
-    support_strength: "weak"
-    outcomes: ["collaboration"]
-    predictors: ["organizational-culture", "social-support", "team-cohesion"]
+  - text: "In interviews with 20 participants across 10 institutions, many FBIRN members did not know whether they were formally part of a given working group or task force, or whether a task force they had joined was still active, showing persistently fuzzy team boundaries and membership in a large distributed science collaboration."
+    evidence: "case-study"
+    support_strength: "low"
+    outcomes: ["collaboration", "sense-of-belonging"]
+    predictors: ["network-structure", "team-cohesion"]
+  - text: "Beyond formal working groups, participants relied heavily on personal ('intensional') networks-relationships built through prior jobs, conferences, and personal contacts-for information, help-seeking, and recruitment onto the project; more senior researchers named substantially more collaborators than junior ones."
+    evidence: "case-study"
+    support_strength: "low"
+    outcomes: ["collaboration", "help-seeking"]
+    predictors: ["network-structure", "peer-mentoring"]
+  - text: "Traditional, place-based organizations (university labs, departments, hospitals) remained indispensable to the distributed effort-supplying equipment, staff, IRB approval, and local coordination-even as work spanned 13+ institutions, and managers in supervisory roles reported being unable to hold collaborators accountable because they did not control their pay, undermining a pure 'virtual organization' or 'distributed team' account of big-science collaboration."
+    evidence: "case-study"
+    support_strength: "low"
+    outcomes: ["collaboration", "productivity"]
+    predictors: ["organizational-culture", "network-structure"]
 population:
-  who: "software developers"
-  where: ["Canada"]
-  when: null
-  n: null
-  sector: ["tech", "education", "healthcare", "white-collar"]
+  who: "FBIRN (Function Biomedical Informatics Research Network) participants: 20 in-depth interviewees (site PIs/co-PIs, engineers/developers, neuroscience researchers, working group chairs, a project manager, a grad student, a postdoc, a research assistant) drawn from 10 of the consortium's 13 US partner institutions, plus 18 months of ethnographic participant observation at FBIRN meetings."
+  where: ["United States"]
+  when: "circa 2004-2006 (18-month ethnographic engagement; published at CSCW 2006)"
+  n: 20
+  sector: ["academic-research", "biomedical-research"]
   sample_notes: >
-    Population details were not clearly extractable from the markdown; see the source card
-    fields and source path.
+    Interviewees spanned seniority levels and 10 of 13 partner institutions; researchers
+    observed 36 biweekly meetings plus teleconferences, videoconferences, and all-hands
+    meetings over 18 months and reviewed email list traffic; no formal response rate
+    reported; pseudonyms used to protect identity.
 limitation:
-  primary: "Qualitative findings are context-rich but may not generalize beyond the sampled setting."
-  others: ["Coding and sampling details should be checked before treating themes as prevalence estimates."]
+  primary: "Single case study of one biomedical cyberinfrastructure consortium (FBIRN) based on 20 purposively selected interviewees, so generalizability to other distributed collaborations-including open-source or non-scientific remote-work settings-is uncertain."
+  others:
+    - "No comparison against a more formally team-structured cyberinfrastructure project to isolate what 'human infrastructure' adds beyond conventional organization."
+    - "Relies on self-report interview and observational data interpreted by the ethnographers, with no stated formal coding scheme or inter-rater reliability check."
+    - "Data reflect a mid-2000s institutional and technology context (teleconferencing, email lists) that may not map directly onto current remote-collaboration tooling."
 risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for practitioner-facing context on open-source maintainer burnout, sustainability
-  pressures, recognition, documentation, and community support. Treat claims as signals
-  unless the source reports a clear empirical design.
+  Provides grounded qualitative evidence that in large distributed technical collaborations,
+  informal personal networks-not formal team or org-chart structure-are a primary channel
+  for help-seeking, information flow, and continued participation, and that ambiguous/fuzzy
+  membership does not by itself prevent effective collaboration. This is directly relevant
+  to how SNH should model belonging and support in remote and open-source communities:
+  network-based rather than team-based measures of connection may better predict who gets
+  help and who doesn't.
 tags:
-  topic: ["collaboration"]
-  method: ["qualitative", "theory"]
-  population: ["software-developers", "tech", "education", "healthcare", "white-collar"]
+  topic: ["collaboration", "community-health", "remote-work"]
+  method: ["qualitative", "methodology"]
+  population: ["researchers", "distributed-teams"]
 source:
   markdown: "Papers_Data/Articles/01 Articles - Extended/MD/The Human Infrastructure of Cyberinfrastructure/The Human Infrastructure of Cyberinfrastructure.md"
-  pdf: null
+  pdf: "papers/Articles/01 Articles - Extended/The Human Infrastructure of Cyberinfrastructure.pdf"
   notes: null

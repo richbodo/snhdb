@@ -1,57 +1,73 @@
-id: "2004-effective-work-practices-for-software-engineering-free-libre-open"
+id: "crowston-2004-effective-work-practices-for-software-engineering"
 title: "Effective Work Practices for Software Engineering: Free/Libre Open Source Software Development"
-authors: []
+authors:
+  - "Crowston, Kevin"
+  - "Annabi, Hala"
+  - "Howison, James"
+  - "Masango, Chengetai"
 year: 2004
 doi: null
-venue: {type: "conference", name: null, volume: null, issue: null, pages: null}
-citation: "Unknown author (2004). Effective Work Practices for Software Engineering: Free/Libre Open Source Software Development."
+venue: {type: "conference", name: "WISER'04 Workshop on Interdisciplinary Software Engineering Research, Newport Beach, California (ACM)", volume: null, issue: null, pages: null}
+citation: "Crowston et al. (2004). Effective Work Practices for Software Engineering: Free/Libre Open Source Software Development. WISER'04 Workshop on Interdisciplinary Software Engineering Research, Newport Beach, California (ACM)."
 article_type: "theory"
-method: {design: "theory", approach: "modelling", evidence_level: "speculative", preregistered: false}
+method: {design: "theory", approach: "analytical", evidence_level: "speculative", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for open-source maintainer wellbeing and
-  sustainability: Our research employs interdisciplinary approaches drawing on information
-  systems, distributed work and small groups research to examine effective work practices for
-  software development teams, specifically those engaged in the development of Free/Libre and
-  Open Source software (FLOSS).
+  This conference paper builds a theoretical model of FLOSS (Free/Libre Open Source
+  Software) team effectiveness by extending Hackman's input-process-output model of work-
+  team effectiveness with coordination theory (managing task/resource/actor dependencies)
+  and Weick and Roberts' collective mind theory (contribution, representation,
+  subordination). Drawing on the FLOSS and distributed-work literatures, the authors
+  synthesize prior findings (e.g., the core/co-developer/active-user/passive-user 'onion'
+  structure, effort penalties of distance) into a set of testable propositions and lay out a
+  data-collection plan (mailing-list archives, CVS logs, interviews, observation) for future
+  empirical work. It contributes a theoretical scaffold rather than new empirical results.
 claims:
-  - text: "Many are popular (indeed, some dominate their market segment) and the code has been found to be generally of good quality [69]."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["performance", "collaboration"]
-    predictors: ["open-source-maintenance", "community-engagement", "team-cohesion"]
-  - text: "Developers contribute from around the world, meet face-to-face infrequently if at all, and coordinate their activity primarily by means of computer-mediated communications (CMC) [64, 77]."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["performance", "collaboration"]
-    predictors: ["open-source-maintenance", "community-engagement", "team-cohesion"]
-  - text: "It is clear that firms are seeking to leverage FLOSS code to bolster their competitive positions but there are opportunities to learn from the social and socio-technical practices of FLOSS development teams to improve the effectiveness of software engineering as a human and team practice."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["performance", "collaboration"]
-    predictors: ["open-source-maintenance", "community-engagement", "team-cohesion"]
+  - text: "FLOSS development teams are repeatedly described in the literature as having a hierarchical, onion-like structure: a small, highly interactive core of developers who write most of the code and control design, surrounded by a larger, more loosely coupled group of co-developers, then active users who report bugs/features, then passive users; core developers face a significant barrier to entry because they must have deep understanding of the software and its processes."
+    evidence: "review-scoping"
+    support_strength: "low"
+    outcomes: ["collaboration"]
+    predictors: ["network-structure", "community-engagement"]
+  - text: "Distributed/FLOSS teams generally require more on-task effort to be effective than co-located teams because participants are distant and less familiar with each other's work, and this additional required effort has been linked in prior empirical studies (Herbsleb et al. 2001; Mockus et al. 2000) to delays in software release compared to traditional face-to-face teams."
+    evidence: "review-scoping"
+    support_strength: "low-to-moderate"
+    outcomes: ["productivity", "collaboration"]
+    predictors: ["remote-work-intensity", "workload"]
+  - text: "FLOSS software quality and development speed are attributed in the reviewed literature to two mechanisms: developers being users of their own software (eliminating much requirements ambiguity) and open access to source code letting users become co-developers, which the literature credits with letting hundreds of contributors handle mundane work (e.g., testing, estimated to consume over 50% of cost in non-FLOSS projects) and fix bugs/evolve features quickly."
+    evidence: "review-scoping"
+    support_strength: "low"
+    outcomes: ["productivity", "collaboration"]
+    predictors: ["open-source-maintenance", "community-engagement"]
 population:
-  who: "software developers"
-  where: ["USA"]
+  who: "Not a primary study of a sample; the paper synthesizes prior descriptive/case-study literature on FLOSS projects (e.g., Linux, Apache, Mozilla, GNOME) and proposes a future research design targeting FLOSS developers, teams, and project artifacts."
+  where: []
   when: null
   n: null
-  sector: ["tech", "open-source", "education", "white-collar"]
+  sector: ["open-source"]
   sample_notes: >
-    Developers contribute from around the world, meet face-to-face infrequently if at all, and
-    coordinate their activity primarily by means of computer-mediated communications (CMC) [64,
-    77].
+    No new empirical data was collected for this paper; it is a conceptual/propositional
+    piece. The 'proposed data collection' section describes planned future sources (project
+    demographics, mailing-list and bug-tracker archives, CVS logs, developer interviews,
+    conference observation, virtual ethnography) that had not yet been executed or analyzed
+    at time of writing.
 limitation:
-  primary: "The markdown did not expose an explicit limitation section; interpret claims according to method and source type."
-  others: ["Use this card as an index and verify fine-grained methodological caveats in the source text."]
-risk_of_bias: "unclear"
+  primary: "The theoretical model and all of its propositions are untested at time of publication; the paper is a research proposal/framework, not a report of empirical findings, so none of its claims about team effectiveness have been validated against data."
+  others:
+    - "Much of the underlying FLOSS literature it synthesizes is written by developers/consultants with partisan or promotional interests, and well-documented case studies are scarce and skew toward reporting successes rather than failures."
+    - "The widely-cited 'onion' team-structure model it relies on is based on only a few case studies and, as the authors themselves note, 'has not been extensively tested.'"
+risk_of_bias: "not-applicable"
 relevance_to_project: >
-  Useful for practitioner-facing context on open-source maintainer burnout, sustainability
-  pressures, recognition, documentation, and community support. Treat claims as signals
-  unless the source reports a clear empirical design.
+  Offers the SNH project a ready-made theoretical scaffold — core/co-developer/active-
+  user/passive-user structure, coordination-theory dependency management, and collective-
+  mind (contribution/representation/subordination) constructs — for operationalizing
+  community engagement, participation-role structure, and coordination mechanisms as
+  predictors of collaboration and burnout in open-source and remote-team settings, and for
+  designing the kind of trace-data-plus-interview measurement plan (mailing lists, commit
+  logs, interviews) the project itself would need.
 tags:
-  topic: ["productivity", "open-source", "collaboration"]
+  topic: ["open-source", "collaboration", "community-health", "methodology"]
   method: ["theory"]
-  population: ["software-developers", "tech", "open-source", "education", "white-collar"]
+  population: ["open-source-developers", "distributed-teams"]
 source:
   markdown: "Papers_Data/Articles/01 Articles - Extended/MD/Effective Work Practices for Software Engineering Free Libre Open Source Software Development/Effective Work Practices for Software Engineering Free Libre Open Source Software Development.md"
-  pdf: null
-  notes: null
+  pdf: "papers/Articles/01 Articles - Extended/Effective Work Practices for Software Engineering Free Libre Open Source Software Development.pdf"
+  notes: "no-doi: web article / no registered DOI found"

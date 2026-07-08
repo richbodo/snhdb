@@ -1,56 +1,74 @@
-id: "2007-the-recovery-experience-questionnaire-development-and-validation"
-title: "The Recovery Experience Questionnaire: Development and Validation of a Measure for Assessing Recuperation and Unwinding From Work"
-authors: []
+id: "sonnentag-2007-the-recovery-experience-questionnaire-development-and"
+title: "The Recovery Experience Questionnaire: Development and validation of a measure for assessing recuperation and unwinding from work."
+authors:
+  - "Sonnentag, Sabine"
+  - "Fritz, Charlotte"
 year: 2007
-doi: null
-venue: {type: "report", name: null, volume: null, issue: null, pages: null}
-citation: "Unknown author (2007). The Recovery Experience Questionnaire: Development and Validation of a Measure for Assessing Recuperation and Unwinding From Work."
+doi: "10.1037/1076-8998.12.3.204"
+venue: {type: "journal", name: "Journal of Occupational Health Psychology", volume: 12, issue: 3, pages: "204-221"}
+citation: "Sonnentag et al. (2007). The Recovery Experience Questionnaire: Development and validation of a measure for assessing recuperation and unwinding from work.. Journal of Occupational Health Psychology, 12(3), 204-221. https://doi.org/10.1037/1076-8998.12.3.204"
 article_type: "empirical"
-method: {design: "longitudinal", approach: "survey", evidence_level: "moderate", preregistered: false}
+method: {design: "cross-sectional", approach: "survey", evidence_level: "moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: Confirmatory factor analyses with a calibration and a
-  cross-validation sample (total N 930) showed that four recovery experiences can be
-  differentiated: psychological detachment from work, relaxation, mastery, and control (Study
-  2).
+  This paper develops and validates the Recovery Experience Questionnaire, showing via
+  confirmatory factor analysis across three studies (total N=991, calibration and cross-
+  validation subsamples) that off-job recovery from work stress is best captured by four
+  distinct experiences: psychological detachment, relaxation, mastery, and control. In a
+  nomological-net study (N=271), job stressors (especially time pressure) were negatively
+  related to detachment, relaxation, and control, and all four recovery experiences
+  correlated with better psychological well-being (fewer health complaints, less emotional
+  exhaustion, higher life satisfaction), with psychological detachment showing the strongest
+  links to impaired well-being. It contributes a short, reliable 16-item measurement tool
+  for the underlying mechanisms by which time off work restores wellbeing.
 claims:
-  - text: "Confirmatory factor analyses with a calibration and a cross-validation sample (total N 930) showed that four recovery experiences can be differentiated: psychological detachment from work, relaxation, mastery, and control (Study 2)."
-    evidence: "longitudinal"
+  - text: "Confirmatory factor analysis supported a four-factor structure of recovery experiences (psychological detachment, relaxation, mastery, control) over one-, two-, and three-factor alternatives, with acceptable fit in both calibration (chi2=317.15, df=98, CFI=.97, RMSEA=.069) and cross-validation samples (chi2=403.60, df=98, CFI=.96, RMSEA=.082); the resulting 16-item scales had good internal consistency (alphas .79-.85)."
+    evidence: "cross-sectional"
+    support_strength: "strong"
+    outcomes: ["measurement"]
+    predictors: ["sampling-method"]
+  - text: "Job stressors were negatively related to recovery experiences: time pressure was negatively related to psychological detachment, relaxation, and control (but not mastery); role ambiguity and situational constraints were negatively related to detachment and control; hours of overtime were negatively related to detachment and relaxation."
+    evidence: "cross-sectional"
     support_strength: "moderate"
-    outcomes: ["burnout", "wellbeing", "performance"]
-    predictors: ["workload"]
-  - text: "Examination of the nomological net in a subsample of Study 2 ( N 271) revealed moderate relations of the recovery experiences with measures of job stressors and psychological well-being; relations with coping and personality variables were generally low (Study 3)."
-    evidence: "longitudinal"
+    outcomes: ["stress"]
+    predictors: ["workload", "technostress"]
+  - text: "Recovery experiences were negatively related to indicators of impaired well-being (health complaints, emotional exhaustion, depressive symptoms, need for recovery, sleep problems) and positively related to life satisfaction; psychological detachment and control showed the strongest associations, while correlations of recovery experiences with coping style and personality (except emotional stability) were generally low and non-significant."
+    evidence: "cross-sectional"
     support_strength: "moderate"
-    outcomes: ["burnout", "wellbeing", "performance"]
-    predictors: ["workload"]
-  - text: "For example, individuals exposed to job stressors have an increased likelihood for developing burnout and other symptoms of poor wellbeing (Demerouti, Bakker, & Bulters, 2004; Garst, Frese, & Molenaar, 2000)."
-    evidence: "longitudinal"
-    support_strength: "moderate"
-    outcomes: ["burnout", "wellbeing", "performance"]
-    predictors: ["workload"]
+    outcomes: ["wellbeing", "burnout", "job-satisfaction"]
+    predictors: ["boundary-management", "workload"]
 population:
-  who: "remote workers or employees"
+  who: "Employees from a broad range of German public and private-sector organizations (public administration, schools, call centers, hospitals, nursing homes, retail, insurance, etc.); Study 2 full sample and Study 3 nomological-net subsamples drawn from this pool"
   where: ["Germany"]
   when: null
-  n: null
-  sector: ["tech", "open-source", "education", "healthcare"]
+  n: 991
+  sector: ["public-administration", "education", "healthcare", "service"]
   sample_notes: >
-    Confirmatory factor analyses with a calibration and a cross-validation sample (total N 930)
-    showed that four recovery experiences can be differentiated: psychological detachment from
-    work, relaxation, mastery, and control (Study 2).
+    Study 2: 1409 contacted by mail plus 420 contacted in person; 991 questionnaires
+    returned (54.6% overall response rate), randomly split into calibration and cross-
+    validation subsamples of N=465 each after listwise deletion for missing data. Study 3
+    nomological-net subsamples were smaller (N=134 and N=137, mostly local public
+    administration employees) and did not cover all predictor/outcome variables in both
+    subsamples, limiting power for the coping and personality analyses. Sample was 71%
+    women, mean age 38.3 (SD 12.3).
 limitation:
-  primary: "Limitations Our studies have some limitations."
-  others: ["First, the four recovery experience measures might not comprise all potentially relevant recovery experiences.", "One might argue that the general affective valence of a recovery activity represents an important aspect of any recovery experience."]
-risk_of_bias: "medium"
+  primary: "All data are cross-sectional self-report, so no causal inferences can be drawn about the direction of relations between job stressors, recovery experiences, and well-being."
+  others:
+    - "The four recovery experiences may not capture all relevant dimensions (e.g., positive affective valence or social connectedness during off-job time were not included as separate constructs)."
+    - "Study 3 nomological-net subsamples were relatively small (N=134, N=137), so non-significant correlations (e.g., for coping and personality) should be interpreted cautiously."
+    - "Relaxation and control latent factors were highly correlated (r as high as .71), raising some question about their discriminant validity despite fit statistics favoring a four-factor model."
+risk_of_bias: "low"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Provides a short, validated, reusable measurement instrument (the RECQ) for the specific
+  off-job mechanisms — psychological detachment, relaxation, mastery, control — through
+  which remote/hybrid workers recover from job stressors and protect wellbeing; directly
+  usable for SNH surveys or diary studies assessing boundary-management and recovery as
+  levers against burnout and technostress from job stressors like time pressure and
+  overtime.
 tags:
-  topic: ["burnout", "wellbeing", "productivity", "open-source"]
-  method: ["survey", "longitudinal", "theory"]
-  population: ["remote-workers-or-employees", "tech", "open-source", "education", "healthcare"]
+  topic: ["wellbeing", "burnout", "measurement", "work-life-balance", "technostress"]
+  method: ["survey", "cross-sectional"]
+  population: ["remote-work", "general-workforce"]
 source:
   markdown: "Papers_Data/Remote Workers/01 Extended - Remote Workers/MD/Sonnentag & Fritz (2007) - The Recovery Experience Questionnaire - Development and Validation/Sonnentag & Fritz (2007) - The Recovery Experience Questionnaire - Development and Validation.md"
-  pdf: null
+  pdf: "papers/Remote Workers/01 Extended - Remote Workers/Sonnentag & Fritz (2007) - The Recovery Experience Questionnaire - Development and Validation.pdf"
   notes: null

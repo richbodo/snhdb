@@ -1,48 +1,70 @@
-id: "10.1016/j.chb.2024.108149"
+id: "chuang-2024-information-quality-work-family-conflict-loneliness"
 title: "Information quality, work-family conflict, loneliness, and well-being in remote work settings"
-authors: ["Chuang, Ya-Ting", "Chiang, Hua-Ling", "Lin, An-Pan"]
+authors:
+  - "Chuang, Ya-Ting"
+  - "Chiang, Hua-Ling"
+  - "Lin, An-Pan"
 year: 2024
 doi: "10.1016/j.chb.2024.108149"
-venue: {type: "journal", name: "Computers in Human Behavior", volume: null, issue: null, pages: null}
-citation: "Chuang et al. (2024). Information quality, work-family conflict, loneliness, and well-being in remote work settings. Computers in Human Behavior."
+venue: {type: "journal", name: "Computers in Human Behavior", volume: 154, issue: null, pages: "108149"}
+citation: "Chuang et al. (2024). Information quality, work-family conflict, loneliness, and well-being in remote work settings. Computers in Human Behavior, 154, 108149. https://doi.org/10.1016/j.chb.2024.108149"
 article_type: "empirical"
-method: {design: "cross-sectional", approach: "survey", evidence_level: "moderate", preregistered: false}
+method: {design: "longitudinal", approach: "survey", evidence_level: "moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: The results indicate a negative association between information
-  accuracy and work-family conflict.
+  Using a three-wave survey of 462 Taiwanese work-from-home employees during the pandemic,
+  this study finds that information accuracy reduces work-family conflict (which in turn
+  lowers well-being) while information timeliness reduces loneliness (which also mediates
+  well-being), consistent with a job demands-resources framing where timeliness and accuracy
+  each act primarily as resources. Information timeliness and accuracy also moderate each
+  other's effects, and loneliness has the strongest overall association with well-being
+  among the mediators tested. The study contributes a novel information-quality lens
+  (accuracy vs. timeliness) to the remote-work literature on work-family conflict,
+  loneliness, and well-being.
 claims:
-  - text: "Married teleworkers may experience increased work-family conflict, while single teleworkers may experience loneliness."
-    evidence: "cross-sectional"
+  - text: "Information timeliness was negatively related to loneliness (β = -0.22, p < .01), and loneliness mediated the relationship between information timeliness and well-being with an indirect effect of 0.19 (95% CI 0.11-0.27)."
+    evidence: "longitudinal"
     support_strength: "moderate"
-    outcomes: ["wellbeing", "mental-health", "productivity", "performance", "loneliness", "isolation"]
-    predictors: ["remote-work-intensity", "loneliness", "social-support", "leadership-style", "workload"]
-  - text: "organizations that convey precise and punctual messages to employees have distinct routes for reducing work-family interference and loneliness and ultimately improving employees' wellbeing in remote work contexts."
-    evidence: "cross-sectional"
+    outcomes: ["loneliness", "wellbeing"]
+    predictors: ["communication"]
+  - text: "Information accuracy was negatively related to work-family conflict (β = -0.15, p < .01), and work-family conflict mediated the relationship between information accuracy and well-being with an indirect effect of 0.08 (95% CI 0.03-0.13)."
+    evidence: "longitudinal"
     support_strength: "moderate"
-    outcomes: ["wellbeing", "mental-health", "productivity", "performance", "loneliness", "isolation"]
-    predictors: ["remote-work-intensity", "loneliness", "social-support", "leadership-style", "workload"]
+    outcomes: ["work-life-balance", "wellbeing"]
+    predictors: ["communication"]
+  - text: "Both information timeliness (β = 0.14-0.16, p < .05) and information accuracy (β = 0.16-0.17, p < .05) positively predicted well-being directly, and information accuracy moderated the timeliness-loneliness link (β = -0.09, p < .05) while timeliness moderated the accuracy-work-family-conflict link (β = 0.08, p < .05); neither information variable significantly affected family-work conflict."
+    evidence: "longitudinal"
+    support_strength: "moderate"
+    outcomes: ["wellbeing", "loneliness", "work-life-balance"]
+    predictors: ["communication"]
 population:
-  who: "remote workers"
-  where: []
-  when: null
+  who: "Work-from-home employees at listed companies and public universities in Taiwan, recruited via a market research firm"
+  where: ["Taiwan"]
+  when: "mid-2021 (during Taiwan's COVID-19 remote-work advocacy period)"
   n: 462
-  sector: ["tech", "education", "healthcare", "white-collar", "remote-workers"]
+  sector: ["mixed", "administrative", "technology"]
   sample_notes: >
-    Married teleworkers may experience increased work-family conflict, while single teleworkers
-    may experience loneliness.
+    517 consented, 462 completed all three survey waves (89% retention); 74% female, mean
+    age 38.8, 54.5% married, 46.3% with children; sample was pandemic-induced (largely
+    involuntary) teleworkers rather than traditional voluntary remote workers, limiting
+    generalizability.
 limitation:
-  primary: "Limitations and future directions We collected responses from employees who worked from home in Taiwan."
-  others: ["It is essential to highlight that these individuals were not traditional teleworkers but were instead influenced by infectious disease policies.", "This highlights the need for further surveys that specifically target typical teleworkers to delve deeper into their experiences and investigate related factors."]
+  primary: "The sample consisted of employees forced into remote work by pandemic policy rather than typical voluntary teleworkers, limiting generalizability to standard remote-work populations."
+  others:
+    - "All measures are self-reported across time-lagged surveys, raising common-method and self-report bias concerns despite the three-wave design."
+    - "Design is correlational (not experimental), so causal claims about information quality's effects cannot be firmly established."
+    - "The study frames information quality only as a resource and does not test its potential downside as a demand (e.g., information overload), which the authors flag as a gap."
 risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Gives the SNH project a concrete, testable mechanism for loneliness mitigation in remote
+  work: timely (not just accurate) organizational communication is specifically linked to
+  reduced loneliness and, through that pathway, to well-being, suggesting communication-
+  cadence interventions (e.g., prompt updates, responsive channels) as a distinct lever from
+  general informational support.
 tags:
-  topic: ["remote-work", "mental-health", "loneliness", "isolation", "wellbeing", "work-life-balance", "productivity", "collaboration"]
-  method: ["cross-sectional", "survey"]
-  population: ["tech", "education", "healthcare", "white-collar", "remote-workers"]
+  topic: ["remote-work", "loneliness", "wellbeing", "work-life-balance", "communication"]
+  method: ["survey", "longitudinal", "mediation-moderation"]
+  population: ["remote-workers", "taiwan", "teleworkers"]
 source:
   markdown: "Papers_Data/Remote Workers/01 Extended - Remote Workers/MD/Chuang et al. (2024) - Information Quality, Work-Family Conflict, Loneliness, and Well-Being in Remote Work Settings/Chuang et al. (2024) - Information Quality, Work-Family Conflict, Loneliness, and Well-Being in Remote Work Settings.md"
-  pdf: null
+  pdf: "papers/Remote Workers/01 Extended - Remote Workers/Chuang et al. (2024) - Information Quality, Work-Family Conflict, Loneliness, and Well-Being in Remote Work Settings.pdf"
   notes: null

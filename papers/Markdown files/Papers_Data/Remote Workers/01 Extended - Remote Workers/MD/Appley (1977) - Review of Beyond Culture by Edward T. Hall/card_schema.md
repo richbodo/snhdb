@@ -1,43 +1,64 @@
-id: "york-1977-beyond-culture"
+id: "appley-1977-beyond-culture"
 title: "Beyond Culture"
-authors: ["York, New", "N.Y.", "pp., ."]
+authors:
+  - "Appley, Dee G."
 year: 1977
-doi: null
-venue: {type: "thesis", name: "Reviewed by Dee G. Appley, University of Massachusetts, Amherst", volume: null, issue: null, pages: null}
-citation: "York et al. (1977). Beyond Culture. Reviewed by Dee G. Appley, University of Massachusetts, Amherst."
-article_type: "theory"
-method: {design: "theory", approach: "modelling", evidence_level: "speculative", preregistered: false}
+doi: "10.1177/002188637701300414"
+venue: {type: "journal", name: "The Journal of Applied Behavioral Science", volume: 13, issue: 4, pages: "579-581"}
+citation: "Appley (1977). Beyond Culture. The Journal of Applied Behavioral Science, 13(4), 579-581. https://doi.org/10.1177/002188637701300414"
+article_type: "commentary"
+method: {design: "theory", approach: "analytical", evidence_level: "speculative", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: It shows that some questions have been answered and others are
-  enormously difficult even to approach.
+  This is a book review (from a 'From the Bookshelf' review section) of Edward T. Hall's
+  1977 anthropology book Beyond Culture. The reviewer, Dee G. Appley, summarizes Hall's
+  arguments about high-context vs. low-context cultures, monochronic vs. polychronic time,
+  the largely unconscious nature of cultural conditioning, and his critique of Western
+  education and bureaucratic organization as incompatible with evolved human needs for
+  small-group, peer-based learning. It contributes an anthropological, non-empirical
+  touchstone (e.g., an ideal group size of eight to twelve) rather than any tested finding.
 claims:
-  - text: "Indeed no society has yet found the right balance for human needs-in-a-situation."
+  - text: "Hall argues, from tracing human ancestry and primate behavior, that the ideal group size for learning and social cohesion is eight to twelve people, and that most modern educational and organizational structures violate this natural limit."
     evidence: "theory"
     support_strength: "speculative"
-    outcomes: []
-    predictors: ["hope", "organizational-culture", "social-support", "leadership-style"]
+    outcomes: ["collaboration", "sense-of-belonging"]
+    predictors: ["team-cohesion", "network-structure"]
+  - text: "Hall distinguishes high-context (HC) and low-context (LC) cultures, arguing that mismatched monochronic vs. polychronic time-space frames of reference between cultures produce systematic intercultural misunderstandings."
+    evidence: "theory"
+    support_strength: "speculative"
+    outcomes: ["communication"]
+    predictors: ["organizational-culture"]
+  - text: "Hall asserts that unconscious cultural 'binds' and action chains outnumber conscious ones by roughly 1000 to 1, so most of the behavior driving cross-cultural friction operates below awareness and typically requires outside help to surface."
+    evidence: "theory"
+    support_strength: "speculative"
+    outcomes: ["communication"]
+    predictors: ["organizational-culture"]
 population:
-  who: "remote workers or employees"
-  where: ["USA"]
-  when: null
+  who: "Not a study of human subjects; this is a review essay about a trade/academic book (Beyond Culture) drawing on the author Edward T. Hall's career as a cultural anthropologist observing cross-cultural and organizational settings."
+  where: []
+  when: "1977"
   n: null
-  sector: ["tech", "open-source", "education", "healthcare", "white-collar"]
+  sector: ["academic"]
   sample_notes: >
-    Population details were not clearly extractable from the markdown; see the source card
-    fields and source path.
+    No sample, data collection, or methodology beyond the reviewer's reading and synthesis
+    of Hall's book; the book itself is described as a mix of anecdote and assertion rather
+    than reported data.
 limitation:
-  primary: "The markdown did not expose an explicit limitation section; interpret claims according to method and source type."
-  others: ["Use this card as an index and verify fine-grained methodological caveats in the source text."]
-risk_of_bias: "unclear"
+  primary: "The source is a book review of a non-empirical, anecdote- and assertion-based anthropology book; it relays Hall's claims (e.g., ideal group size, HC/LC culture, the 1000-to-1 unconscious ratio) without any data, sample, or verifiable methodology."
+  others:
+    - "The review reflects one reviewer's interpretive framing of Hall's arguments, not an independent evaluation of evidence"
+    - "Published in 1977; the cultural and organizational concepts are not tested against contemporary remote-work or digital-community contexts"
+risk_of_bias: "high"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Hall's oft-cited claim (relayed here) that the ideal group size for cohesion and peer
+  learning is eight to twelve people, and his critique of bureaucratic structures as
+  antithetical to human social needs, are anthropological touchstones relevant to SNH team-
+  size and community-structure design choices, but the project should treat them as
+  theoretical priors rather than empirical evidence.
 tags:
-  topic: ["open-source"]
+  topic: ["collaboration", "community-health"]
   method: ["theory"]
-  population: ["remote-workers-or-employees", "tech", "open-source", "education", "healthcare", "white-collar"]
+  population: ["organizational-settings", "cross-cultural"]
 source:
   markdown: "Papers_Data/Remote Workers/01 Extended - Remote Workers/MD/Appley (1977) - Review of Beyond Culture by Edward T. Hall/Appley (1977) - Review of Beyond Culture by Edward T. Hall.md"
-  pdf: null
+  pdf: "papers/Remote Workers/01 Extended - Remote Workers/Appley (1977) - Review of Beyond Culture by Edward T. Hall.pdf"
   notes: null

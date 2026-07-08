@@ -1,54 +1,72 @@
-id: "10.1080/00207594.2012.80460"
+id: "salanova-2013-the-dark-side-of-technologies-technostress"
 title: "The dark side of technologies: Technostress among users of information and communication technologies"
-authors: ["Castello´", "Spain"]
-year: 2012
-doi: "10.1080/00207594.2012.80460"
-venue: {type: "journal", name: "Marisa Salanova, Susana Llorens, and Eva Cifre", volume: null, issue: null, pages: null}
-citation: "Castello´ et al. (2012). The dark side of technologies: Technostress among users of information and communication technologies. Marisa Salanova, Susana Llorens, and Eva Cifre."
-article_type: "theory"
-method: {design: "theory", approach: "modelling", evidence_level: "speculative", preregistered: false}
+authors:
+  - "Salanova, Marisa"
+  - "Llorens, Susana"
+  - "Cifre, Eva"
+year: 2013
+doi: "10.1080/00207594.2012.680460"
+venue: {type: "journal", name: "International Journal of Psychology", volume: 48, issue: 3, pages: "422-436"}
+citation: "Salanova et al. (2013). The dark side of technologies: Technostress among users of information and communication technologies. International Journal of Psychology, 48(3), 422-436. https://doi.org/10.1080/00207594.2012.680460"
+article_type: "empirical"
+method: {design: "cross-sectional", approach: "survey", evidence_level: "moderate", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for remote-work isolation, collaboration,
-  wellbeing, and performance: Results from multigroup confirmatory factor analyses among
-  non-intensive and intensive ICT users showed, as expected, the four-factor structure of
-  technostrain in both samples.
+  This study surveys 1072 ICT users (675 non-intensive, 397 intensive) to test whether
+  technostress is composed of two distinct psychological experiences: technostrain (anxiety,
+  fatigue, scepticism, inefficacy) and technoaddiction (excessive/compulsive ICT use).
+  Confirmatory factor analyses support a four-factor technostrain structure and a related
+  but separate technoaddiction dimension, and regression analyses show job demands
+  (overload, role ambiguity, mobbing) increase both, while job/personal resources (autonomy,
+  social support, transformational leadership, mental/emotional competences) mostly reduce
+  them. Notably, social support shows a double-edged effect: it lowers fatigue but increases
+  feelings of inefficacy, suggesting help-seeking around technology use can carry a
+  competence cost.
 claims:
-  - text: "Results from multigroup confirmatory factor analyses among non-intensive and intensive ICT users showed, as expected, the four-factor structure of technostrain in both samples."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["anxiety", "collaboration"]
-    predictors: ["technostress", "social-support", "leadership-style", "workload"]
-  - text: "Secondly, and also as expected, confirmatory factorial analyses revealed that technostress experiences are characterized not only by technostrain but also by an excessive and compulsive use of ICT."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["anxiety", "collaboration"]
-    predictors: ["technostress", "social-support", "leadership-style", "workload"]
-  - text: "Moreover, multiple analyses of variance showed significant differences between non-intensive and intensive ICT users (1) in the dimensions of technostress and (2) in specific job demands and job/personal resources."
-    evidence: "theory"
-    support_strength: "speculative"
-    outcomes: ["anxiety", "collaboration"]
-    predictors: ["technostress", "social-support", "leadership-style", "workload"]
+  - text: "Confirmatory multigroup factor analysis supported a four-factor structure of technostrain (anxiety, fatigue, scepticism, inefficacy) that fit significantly better than a one-factor model (delta chi-square(12)=3102.04, p<.001), holding across both non-intensive and intensive ICT user samples."
+    evidence: "cross-sectional"
+    support_strength: "moderate"
+    outcomes: ["stress", "burnout"]
+    predictors: ["technostress"]
+  - text: "Job demands positively predicted technostrain and technoaddiction: work overload, role ambiguity, and mobbing predicted both, while mobbing was the strongest single predictor of anxiety (beta=.122 to .207, p<.05 to p<.001) across samples; lack of job resources (autonomy, transformational leadership, ICT facilitators) and lack of personal resources (mental competence) predicted technostrain specifically."
+    evidence: "cross-sectional"
+    support_strength: "moderate"
+    outcomes: ["stress", "anxiety", "burnout"]
+    predictors: ["workload", "leadership-style", "autonomy"]
+  - text: "Social support showed an ambivalent effect: it was negatively associated with fatigue (beta=-.090, p<.05) but positively associated with inefficacy (beta=.114, p<.01), i.e., more social support reduced exhaustion but increased feelings of technological inefficacy, interpreted via reciprocity/equity theory as a cost of needing to be helped."
+    evidence: "cross-sectional"
+    support_strength: "moderate"
+    outcomes: ["stress", "anxiety"]
+    predictors: ["social-support"]
 population:
-  who: "remote workers or employees"
+  who: "Spanish ICT users in workplace settings, split into non-intensive users (ICT as one tool among others) and intensive users (ICT as the core, daily tool, working in a fully virtual educational organization)"
   where: ["Spain"]
   when: null
-  n: 675
-  sector: ["education"]
+  n: 1072
+  sector: ["education", "mixed-occupations"]
   sample_notes: >
-    The study included a sample of 1072 ICT users (N ¼ 675 nonintensive ICT users and N ¼ 397
-    intensive ICT users).
+    Two convenience samples: 675 non-intensive users (52% women, mean age 34, mixed
+    occupations across technical/supervisory/managerial/blue-collar roles) and 397 intensive
+    users (62% women, age undisclosed by the employer for anonymity reasons, all from one
+    virtual-services educational organization). Not randomly sampled; intensive-user sample
+    drawn from a single organization limits generalizability.
 limitation:
-  primary: "Limitations and future research One weakness of our study is that we used selfreport measurements."
-  others: ["Yet, because of the nature of this study, which covers psychological phenomena such as affects, attitudes, and beliefs, the use of self-reports is an appropriate method.", "Moreover, Harman's test (see Podsakoff et al., 2003) shows that the common method variance bias is not a serious problem in the present study."]
-risk_of_bias: "unclear"
+  primary: "Cross-sectional self-report design precludes causal inference about whether job demands/resources cause technostress or vice versa, and both predictor and outcome measures share method (self-report)."
+  others:
+    - "The intensive-user sample is drawn from a single virtual-services educational organization, limiting generalizability of the technoaddiction findings."
+    - "Age data for the intensive-user sample was withheld by the employer, preventing full demographic comparison between groups."
+    - "Technoaddiction's hypothesized two-factor (excessive/compulsive) structure was not confirmed; only a single dimension was found, partially disconfirming the theoretical model."
+risk_of_bias: "medium"
 relevance_to_project: >
-  Useful for the remote-work stream because it indexes evidence on isolation, mediated
-  communication, wellbeing, job engagement, boundary management, and performance.
+  Provides validated measurement scales and a demands-resources framework (RED model) for
+  technostress/technostrain/technoaddiction that the SNH project can borrow for measuring
+  technology-driven burnout and anxiety in remote/hybrid workers, and its finding that
+  social support can paradoxically increase feelings of inefficacy is a caution for
+  designing peer-support or help-seeking interventions around technology use.
 tags:
-  topic: ["technostress", "social-support", "collaboration"]
-  method: ["theory"]
-  population: ["remote-workers-or-employees", "education"]
+  topic: ["technostress", "burnout", "remote-work", "wellbeing"]
+  method: ["survey", "cross-sectional"]
+  population: ["ict-users", "office-workers"]
 source:
   markdown: "Papers_Data/Remote Workers/01 Extended - Remote Workers/MD/Int J Psychol - 2012 - Salanova - The dark side of technologies  Technostress among users of information and communication/Int J Psychol - 2012 - Salanova - The dark side of technologies  Technostress among users of information and communication.md"
-  pdf: null
+  pdf: "papers/Remote Workers/01 Extended - Remote Workers/Int J Psychol - 2012 - Salanova - The dark side of technologies  Technostress among users of information and communication.pdf"
   notes: null

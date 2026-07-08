@@ -1,49 +1,85 @@
-id: "drug-2008-methods-for-testing-theory-and-evaluating-impact-in-randomiz"
-title: "Methods for Testing Theory and Evaluating Impact in Randomized Field Trials - Intent-to-Treat Analyses"
-authors: ["Drug"]
+id: "brown-2008-methods-for-testing-theory-and-evaluating"
+title: "Methods for testing theory and evaluating impact in randomized field trials: Intent-to-treat analyses for integrating the perspectives of person, place, and time"
+authors:
+  - "Brown, C. Hendricks"
+  - "Wang, Wei"
+  - "Kellam, Sheppard G."
+  - "Muthén, Bengt O."
+  - "Petras, Hanno"
+  - "Toyinbo, Peter"
+  - "Poduska, Jeanne"
+  - "Ialongo, Nicholas"
+  - "Wyman, Peter A."
+  - "Chamberlain, Patricia"
+  - "Sloboda, Zili"
+  - "MacKinnon, David P."
+  - "Windham, Amy"
 year: 2008
-doi: null
-venue: {type: "journal", name: "The Prevention Science and Methodology Group", volume: null, issue: null, pages: null}
-citation: "Drug (2008). Methods for Testing Theory and Evaluating Impact in Randomized Field Trials - Intent-to-Treat Analyses. The Prevention Science and Methodology Group."
-article_type: "empirical"
-method: {design: "rct", approach: "experiment", evidence_level: "strong", preregistered: false}
+doi: "10.1016/j.drugalcdep.2007.11.013"
+venue: {type: "journal", name: "Drug and Alcohol Dependence", volume: 95, issue: null, pages: "S74-S104"}
+citation: "Brown et al. (2008). Methods for testing theory and evaluating impact in randomized field trials: Intent-to-treat analyses for integrating the perspectives of person, place, and time. Drug and Alcohol Dependence, 95, S74-S104. https://doi.org/10.1016/j.drugalcdep.2007.11.013"
+article_type: "methods"
+method: {design: "case-study", approach: "analytical", evidence_level: "reference", preregistered: false}
 gist: >
-  This source gives the project a retrieval card for mental-health prevention, social
-  connection, and upstream intervention design: Randomized field trials provide unique
-  opportunities to examine the effectiveness of an intervention in real world settings and to
-  test and extend both theory of etiology and theory of intervention.
+  This methodology paper by the Prevention Science and Methodology Group establishes
+  standards for intent-to-treat (ITT) analysis in multilevel, group-randomized field trials
+  (RFTs), extending pharmaceutical-trial ITT conventions to designs where randomization
+  occurs at classroom, school, district, or county level. Drawing on six real RFTs
+  (including the Baltimore Prevention Program's Good Behavior Game and the Georgia
+  Gatekeeper suicide-prevention training trial), the authors specify rules for defining the
+  analytic denominator, classifying mobile/late-entering subjects, and handling missing
+  longitudinal data (FIML, multiple imputation), then present growth mixture models (GMM)
+  and generalized additive mixed models (GAMM) for detecting who benefits from an
+  intervention, for how long, and under what contextual conditions. It contributes a
+  reusable analytic and reporting framework rather than a single substantive finding about
+  social connection.
 claims:
-  - text: "Methods for Testing Theory and Evaluating Impact in Randomized Field Trials - Intent-to-Treat Analyses Randomized field trials provide unique opportunities to examine the effectiveness of an intervention in real world settings and to test and extend both theory of etiology and theory of intervention."
-    evidence: "rct"
-    support_strength: "strong"
+  - text: "Two defensible but distinct ITT denominator rules are needed for group-randomized trials: (1) restrict to subjects present at the start of the intervention period, which protects against late entrants being informatively assigned to condition but limits sample size, versus (2) include all subjects who enter throughout the intervention period, which maximizes sample and generalizability but risks bias if late entrants are non-randomly steered into conditions (e.g., principals disproportionately placed late-entering aggressive children into Good Behavior Game classrooms in the First Generation Baltimore Prevention Program trial)."
+    evidence: "case-study"
+    support_strength: "moderate"
     outcomes: []
-    predictors: []
-  - text: "These trials are designed not only to test for overall intervention impact but also to examine how impact varies as a function of individual level characteristics, context, and across time."
+    predictors: ["sampling-method"]
+  - text: "In the Georgia Gatekeeper suicide-prevention training trial, ITT impact analyses of school staff outcomes (knowledge, attitudes, referral behavior) showed somewhat smaller training effects than parallel 'as-treated' analyses that used staff's actual (not intended) training condition, illustrating the conservative bias built into ITT estimates when compliance/exposure is imperfect."
     evidence: "rct"
-    support_strength: "strong"
+    support_strength: "moderate"
+    outcomes: ["help-seeking"]
+    predictors: ["intervention", "peer-mentoring"]
+  - text: "Standard missing-data handling of last-observation-carried-forward (LOCF), still common in pharmaceutical ITT submissions, is statistically inefficient and introduces bias and misleadingly precise standard errors; the authors instead recommend full-information maximum likelihood or multiple imputation, both of which require only a missing-at-random assumption and were demonstrated on a two-stage Conduct Disorder diagnostic follow-up in the First Generation Baltimore Prevention Program trial."
+    evidence: "case-study"
+    support_strength: "moderate"
     outcomes: []
-    predictors: []
+    predictors: ["sampling-method"]
 population:
-  who: "students/adolescents"
-  where: ["USA", "Ireland"]
+  who: "Not a single sampled population; a methods/framework paper illustrated using six US randomized field trials of universal, selective, and indicated prevention programs, spanning individual-, classroom-, school-, district-, and county-level randomization (e.g., Rochester Resilience Program, First and Third Generation Baltimore Prevention Program, Georgia Gatekeeper suicide-prevention training, Adolescent Substance Abuse Prevention Study, California MTFC trial)"
+  where: ["United States"]
   when: null
   n: null
-  sector: ["tech", "open-source", "education", "healthcare"]
+  sector: ["education", "public-health", "mental-health-services"]
   sample_notes: >
-    Population details were not clearly extractable from the markdown; see the source card
-    fields and source path.
+    Sample sizes for the illustrative trials range from roughly 470 children (Rochester
+    Resilience Program) to 50,000 students (Georgia Gatekeeper); no single unified sample
+    underlies the paper's own claims since it is a statistical-methods exposition, not a
+    primary empirical study.
 limitation:
-  primary: "Trial context and follow-up window may limit generalizability beyond the tested population."
-  others: ["Implementation fidelity and attrition should be checked before adapting the intervention model."]
-risk_of_bias: "low"
+  primary: "As a methods/framework paper, its own 'findings' are prescriptive standards and illustrative re-analyses rather than new substantive evidence about social connection or wellbeing, so support_strength for its claims reflects methodological consensus, not effect-size precision."
+  others:
+    - "Recommendations are built almost entirely from the authors' own multi-decade portfolio of prevention trials (Prevention Science and Methodology Group), limiting independent validation of the proposed ITT standards."
+    - "The paper explicitly warns that its variation-in-impact methods (GAMM, GMM) can produce spurious subgroup findings if applied exploratorily without correction for multiple comparisons or theoretical pre-specification."
+    - "Growth mixture / latent class models discussed are acknowledged elsewhere in the literature to be sensitive to distributional assumptions and can overextract classes."
+risk_of_bias: "not-applicable"
 relevance_to_project: >
-  Useful for upstream mental-health framing, social connection mechanisms, prevention design,
-  and measurement vocabulary that can inform the SNH theoretical model.
+  Because the SNH project draws on suicide-prevention and prevention-science methodology,
+  this paper is a foundational reference for how to correctly define analytic denominators,
+  handle attrition/missing data, and test for who benefits under what conditions when the
+  project runs or evaluates group-level interventions (e.g., team- or org-level social-
+  support programs) rather than individually randomized ones; it directly informs how to
+  avoid inflated or spurious subgroup claims about intervention impact on isolation,
+  burnout, or belonging.
 tags:
-  topic: ["open-source"]
-  method: ["rct", "theory"]
-  population: ["students-adolescents", "tech", "open-source", "education", "healthcare"]
+  topic: ["suicide-prevention", "methodology", "measurement"]
+  method: ["case-study", "analytical"]
+  population: ["students", "school-staff", "youth"]
 source:
   markdown: "Papers_Data/Mental Health/01 Mental Health - Extended/MD/Methods for Testing Theory and Evaluating Impact in Randomized Field Trials - Intent-to-Treat Analyses/Methods for Testing Theory and Evaluating Impact in Randomized Field Trials - Intent-to-Treat Analyses.md"
-  pdf: null
+  pdf: "papers/Mental Health/01 Mental Health - Extended/Methods for Testing Theory and Evaluating Impact in Randomized Field Trials - Intent-to-Treat Analyses.pdf"
   notes: null
