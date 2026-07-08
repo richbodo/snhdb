@@ -5,6 +5,9 @@ papers on social network health — remote work, loneliness and isolation, commu
 mental health, measurement methods — kept in one repository so anyone can clone it and
 search the whole corpus **locally, in seconds**.
 
+This is a **living, evolutionary collection**: it grows as we find new research relevant
+to the project, so re-clone or `git pull` for the current corpus.
+
 Each paper is stored three ways:
 
 - the source **PDF** (`papers/<Topic>/`)
